@@ -1,0 +1,53 @@
+<tabs>
+
+    <tab
+        id="@+id/home"
+        icon="@drawable/rumah"
+        activeColor="@color/abu"
+        inActiveColor="@color/abu"
+        title="Beranda"
+        gravity="center"
+
+        />
+
+    <tab
+        id="@+id/daftarharga"
+        icon="@drawable/uang"
+        activeColor="@color/abu"
+        inActiveColor="@color/abu"
+        title="Harga"
+        gravity="center"
+        />
+
+    <tab
+        id="@+id/tutorial"
+        icon="@drawable/ic_tanya"
+        activeColor="@color/abu"
+        inActiveColor="@color/abu"
+        title="Tutorial"
+        gravity="center"
+
+
+        />
+
+    <tab
+        id="@+id/riwayattransaksi"
+        icon="@drawable/struk"
+        activeColor="@color/abu"
+        inActiveColor="@color/abu"
+        title="Riwayat"
+        gravity="center"
+
+
+        />
+    <tab
+        id="@+id/profile"
+        icon="@drawable/akun"
+        activeColor="@color/abu"
+        inActiveColor="@color/abu"
+        title="Akun"
+        gravity="center"
+        />
+
+
+</tabs>

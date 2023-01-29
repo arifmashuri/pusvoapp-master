@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".BayarActivity">
+    <!-- ~Buttons -->
+
+    <LinearLayout
+        android:background="#0F2C2121"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:visibility="gone"
+            android:id="@+id/shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/id_order"
+                        app:fontFamily="@font/ubuntu"
+                        android:textColor="@android:color/black" />
+                    <View
+                        android:background="@color/abu"
+                        android:layout_width="100dp"
+                        android:layout_height="16sp"
+                        app:fontFamily="@font/ubuntu"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hp"
+                        app:fontFamily="@font/ubuntu"
+                        android:textColor="@android:color/black" />
+                    <View
+                        android:layout_width="150dp"
+                        android:layout_height="16sp"
+                        android:background="@color/abu" />
+
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/produk"
+                            app:fontFamily="@font/ubuntu"
+                            android:textColor="@android:color/black" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="16sp"
+                            android:background="@color/abu" />
+
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/harga"
+                            app:fontFamily="@font/ubuntu"
+                            android:textColor="@android:color/black" />
+
+                        <View
+                            android:layout_width="50dp"
+                            android:layout_height="16sp"
+                            app:fontFamily="@font/ubuntu"
+                            android:background="@color/abu"
+                            android:textColor="@android:color/black" />
+
+
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLength="6"
+                            android:inputType="number"
+                            android:hint="@string/masukkan_pin"
+                            android:autofillHints="@string/masukkan_pin"
+                            android:singleLine="true"/>
+                        <ImageButton
+                            android:contentDescription="@string/bayar_sekarang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_paste" />
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/buttonshape"
+                        app:fontFamily="@font/ubuntu"
+                        android:text="@string/konfirmasi"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+                        <TextView
+                            android:textSize="14sp"
+                            android:id="@+id/notice"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:textColor="@color/merah"
+                            android:text="@string/perhatian" />
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/id_order"
+                            app:fontFamily="@font/ubuntu"
+                            android:textColor="@android:color/darker_gray" />
+                        <TextView
+                            android:textSize="16sp"
+                            android:id="@+id/editTextTransaction_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:fontFamily="@font/ubuntu"
+                            android:textColor="@android:color/black" />
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/hp"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTexthp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearMeter"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/meter"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextMeter"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearVA"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/no_va"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editVA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/produk"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextProduk"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/harga"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextHarga"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearNama"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/nama"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextNama"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearJumlahBulan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/jumlah_bulan"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextJumlahBulan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearJumlahOrang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/jumlah_orang"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextJumlahOrang"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:id="@+id/LinearBulan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bulan"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/darker_gray" />
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:id="@+id/editTextBulan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+
+                                <TextView
+                                    android:id="@+id/editTextTransaction_kode"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_marginStart="3dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone"/>
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <EditText
+                                    android:id="@+id/editTextKode_voucher"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="number"
+                                    android:maxLength="6"
+                                    android:hint="@string/pin_google_authenticator"
+                                    android:autofillHints="@string/pin_google_authenticator"
+                                    android:singleLine="true"/>
+                                <ImageButton
+                                    android:contentDescription="@string/bayar_sekarang"
+                                    android:id="@+id/buttonPaste"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_paste" />
+                            </LinearLayout>
+
+                        <Button
+                            android:id="@+id/buttonBayar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/buttonshape"
+                            app:fontFamily="@font/ubuntu"
+                            android:text="@string/konfirmasi"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                            </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

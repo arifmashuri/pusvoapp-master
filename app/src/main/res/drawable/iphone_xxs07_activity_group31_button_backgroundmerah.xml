@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/iphone_xxs07_activity_group31_button_border_color2"
+		android:width="@dimen/iphone_xxs07_activity_group31_button_border_size"/>
+
+	<corners android:radius="@dimen/iphone_xxs07_activity_group31_button_radius"/>
+</shape>

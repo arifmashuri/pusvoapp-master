@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<solid android:color="@color/iphone_xxs05_activity_group94_button_background_color"/>
+</shape>

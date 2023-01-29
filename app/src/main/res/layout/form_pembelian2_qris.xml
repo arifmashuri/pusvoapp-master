@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".PulsaActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/layout_toolbar"/>
+        <LinearLayout
+            android:id="@+id/loadingbaru"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <com.github.ybq.android.spinkit.SpinKitView
+                style="@style/SpinKitView.Large.ThreeBounce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/bg_colordark" />
+        </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/isihalaman"
+        android:visibility="gone"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textSize="14sp"
+                            android:id="@+id/pengumuman"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/merah"
+                            android:text="@string/loading"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recyclerKyc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                app:spanCount="2"
+                                tools:listitem="@layout/list_produk" />
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:id="@+id/judul_nohp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hp"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="14sp"
+                            app:fontFamily="@font/ubuntu" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <EditText
+                                android:id="@+id/editTexthp"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:autofillHints="@string/contohhp"
+                                android:hint="@string/contohhp"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:maxLength="16"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <ImageButton
+                                android:id="@+id/buttonSubmit2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/kontak_terpilih"
+                                android:src="@drawable/ic_kontak" />
+
+                                <ImageView
+                                    android:visibility="gone"
+                                    android:id="@+id/hpcek"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/centang" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/LinearNamaKontak"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/kontak_terpilih"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/NamaKontak"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:id="@+id/LinearMeter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/jenismeter"
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/meter"
+                                app:fontFamily="@font/ubuntu"
+
+                                android:textColor="@android:color/darker_gray" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/editTextMeter"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    app:fontFamily="@font/ubuntu"
+                                    android:maxLength="36"
+                                    android:autofillHints="@string/contohmeter"
+                                    android:hint="@string/contohmeter"
+                                    android:inputType="number"
+
+                                    android:singleLine="true" />
+
+                                <ImageButton
+                                    android:visibility="gone"
+                                    android:id="@+id/buttonSubmit3"
+                                    android:contentDescription="@string/meter_terpilih"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_kontak" />
+
+                                <ImageButton
+                                    android:visibility="gone"
+                                    android:id="@+id/buttonPaste"
+                                    android:contentDescription="@string/meter_terpilih"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_paste" />
+                                <ImageView
+                                    android:visibility="gone"
+                                    android:id="@+id/metercek"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/centang" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:id="@+id/LinearNamaMeter"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/kontak_terpilih"
+                                app:fontFamily="@font/ubuntu"
+                                android:textColor="@android:color/darker_gray" />
+
+                            <TextView
+                                android:textSize="16sp"
+                                android:id="@+id/NamaMeter"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:fontFamily="@font/ubuntu"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearOperator"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/ViewPilihOperator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pilih_operator"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recyclerOperator"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                    app:spanCount="2"
+                                    tools:listitem="@layout/list_produk" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearProduk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pilih_produk"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recyclerProduk"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                    app:spanCount="3"
+                                    tools:listitem="@layout/list_produk" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/LinearDeskripsi"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/deskripsi"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/deskripsiproduk"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/deskripsi"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+                    </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/LinearHarga"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="@string/metode"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <androidx.recyclerview.widget.RecyclerView
+                                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                    app:spanCount="2"
+                                    android:id="@+id/recyclerView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:listitem="@layout/list_metode"
+                                    />
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+<TextView
+    android:textSize="14sp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/setujusyarat"
+    android:textColor="@color/hitam"
+    />
+                        <TextView
+                            android:textSize="14sp"
+                            android:id="@+id/pesan"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/merah"
+                            android:text="@string/loading"
+                            />
+                        <TextView
+                            android:background="@color/abu_muda"
+                            android:textSize="14sp"
+                            android:id="@+id/notice"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:textColor="@color/merah"
+                            android:text="@string/perhatian" />
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/buttonSubmit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/buttonshape"
+                            android:text="@string/lanjutkan"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/ubuntu" />
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    app:layout_anchor="@+id/linearLayout">
+
+                    <TextView
+                        android:id="@+id/sk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="@string/sk"
+                        android:layout_margin="10dp"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp"
+                         />
+                </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

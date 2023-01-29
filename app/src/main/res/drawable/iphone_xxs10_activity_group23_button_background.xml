@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/iphone_xxs10_activity_group23_button_radius"/>
+
+	<solid android:color="@color/iphone_xxs10_activity_group23_button_background_color"/>
+</shape>

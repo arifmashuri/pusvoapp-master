@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:measureWithLargestChild="false"
+        android:orientation="vertical"
+        tools:context=".CekLoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:src="@drawable/logopusvo" />
+
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/versiaplikasi"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/hitam"
+        android:text="v 4.4.2"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textColor="@color/putih"
+        android:gravity="center"
+        android:src="@drawable/kominfo"
+        />
+
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textColor="@color/putih"
+        android:gravity="center"
+        android:src="@drawable/kemenkumham"
+        />
+
+    <TextView
+        android:id="@+id/diawasi"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/hitam"
+        android:text="Pusvo terdaftar dan diawasi oleh Kominfo dan Kemenkumham"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+</LinearLayout>
+
+</LinearLayout>

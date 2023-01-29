@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg_colordark</item>
+        <item name="colorPrimaryDark">@color/bg_colordark</item>
+        <item name="colorAccent">@color/bg_colordark</item>
+        <item name="titleTextColor">@color/putih</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ubuntu</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg_colordark</item>
+        <item name="colorPrimaryDark">@color/bg_colordark</item>
+        <item name="colorAccent">@color/bg_colordark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="titleTextColor">@color/putih</item>
+    </style>
+    <style name="Tombol" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#2235e2</item>
+        <item name="android:textColor">#e5f235</item>
+    </style>
+    <style name="botoombar_textchange">
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="SelectionSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+
+
+    <style name="UbuntuSpinner">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="progressDlg">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorPrimary">@color/bg_colordark</item>
+        <item name="android:background">@color/putih</item>
+    </style>
+
+
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/ubuntu</item>
+    </style>
+</resources>

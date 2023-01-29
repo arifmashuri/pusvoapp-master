@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "764817079788",
+    "firebase_url": "https://eloquent-theme-257802.firebaseio.com",
+    "project_id": "eloquent-theme-257802",
+    "storage_bucket": "eloquent-theme-257802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764817079788:android:362e1a6f42fffea3a794c9",
+        "android_client_info": {
+          "package_name": "com.pusvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764817079788-ccbba1k7752qr0jv489f79n3nl1n9che.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyYG6CMDAf4orKoAWWv6t6ghE5qf3Kjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764817079788-ccbba1k7752qr0jv489f79n3nl1n9che.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

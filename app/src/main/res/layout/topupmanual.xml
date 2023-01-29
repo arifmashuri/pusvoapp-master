@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".PulsaActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/layout_toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/warning"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/merah"
+                        android:text="@string/loading"
+                        android:textSize="14sp"
+                        />
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jumlah"
+                        android:textColor="@android:color/darker_gray" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+
+
+                                    <EditText
+                                        android:id="@+id/editTextJumlah"
+                                        android:layout_width="0dp"
+                                        android:layout_weight="1"
+                                        android:layout_height="wrap_content"
+                                        android:autofillHints="@string/hanya_angka"
+                                        android:hint="@string/hanya_angka"
+                                        android:inputType="number"
+                                        android:maxLength="7"
+                                        android:singleLine="true" />
+                                <ImageView
+                                    android:visibility="gone"
+                                    android:id="@+id/jumlahcek"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/centang" />
+
+                            </LinearLayout>
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                           >
+                            <TextView
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pilih_produk"
+                                android:textColor="@android:color/darker_gray" />
+
+                            <View
+                                android:layout_margin="10dp"
+                            android:background="@color/abu"
+                            android:layout_width="100dp"
+                            android:layout_height="18sp" />
+                            <TextView
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/nama"
+                                android:textColor="@android:color/darker_gray" />
+
+                        <View
+                            android:layout_margin="10dp"
+                            android:background="@color/abu"
+                            android:layout_width="100dp"
+                            android:layout_height="18sp" />
+                        </LinearLayout>
+
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                    <LinearLayout
+                        android:id="@+id/detail"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pilih_produk"
+                            android:textColor="@android:color/darker_gray" />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recyclerProduk"
+                                android:layout_width="match_parent"
+                                app:spanCount="2"
+                                android:layout_height="wrap_content"
+                                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                tools:listitem="@layout/list_produk" />
+                        </RelativeLayout>
+
+<!--                        <Spinner-->
+<!--                            android:id="@+id/spinner1"-->
+<!--                            android:spinnerMode="dialog"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:prompt="@string/pilih_produk"-->
+<!--                            android:textColor="@android:color/black" />-->
+
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/layoutmanual"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/gambar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/kotak" />
+                        <ImageView
+                            android:id="@+id/gambar2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/kotak_disabled" />
+                        <TextView
+                            android:textSize="14sp"
+                            android:id="@+id/tampilkan"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="@string/manual"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/estimasi_harga"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/estimasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_margin="10dp"
+                        android:text="@string/estimasi_harga"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textIsSelectable="true"
+                         />
+
+                                <TextView
+                                    android:textSize="14sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/metode"
+                                    android:textColor="@android:color/darker_gray" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:spanCount="3"
+                            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                            tools:listitem="@layout/list_metode" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                                    android:textSize="14sp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/setujusyarat"
+                                    android:textColor="@color/hitam"
+                                    />
+                    <TextView
+                        android:background="@color/abu_muda"
+                        android:textSize="14sp"
+                        android:id="@+id/notice"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:textColor="@color/merah"
+                        android:text="@string/perhatian" />
+
+                    <Button
+                                    android:visibility="gone"
+                                    android:id="@+id/buttonSubmit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="16dp"
+                                    android:background="@drawable/buttonshape"
+                                    android:text="@string/lanjutkan"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+
+</LinearLayout>
+                    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:layout_anchor="@+id/linearLayout">
+
+                <TextView
+                    android:id="@+id/sk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/skwithdraw"
+                    android:layout_margin="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="14sp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

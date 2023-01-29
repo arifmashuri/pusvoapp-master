@@ -1,0 +1,10 @@
+<ripple
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:color="@color/abu_tua">
+
+	<item
+		android:id="@android:id/mask"
+		android:drawable="@drawable/iphone_xxs13_activity_group31_button_background"/>
+
+	<item android:drawable="@drawable/iphone_xxs13_activity_group31_button_background"/>
+</ripple>

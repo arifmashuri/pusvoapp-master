@@ -1,0 +1,1955 @@
+<resources>
+
+    <string name="app_name">Pusvo</string>
+    <string name="hp">No HP</string>
+    <string name="server_client_id">764817079788-u6a6hpnhb5jpsi07nf2345ce84b671nk.apps.googleusercontent.com</string>
+    <string name="address_tko">0x7db49a30560e6930f0aa6d0ee21b238d5d766217</string>
+    <string name="facebook_app_id">793605951708682</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="login_dengan_google">Lanjutkan dengan Google</string>
+    <string name="login_dengan_facebook">Login dengan Facebook</string>
+    <string name="selamatdatang">Selamat datang</string>
+    <string name="hporrek">No E-Wallet/Rekening</string>
+    <string name="contohhp">Contoh : 081234567890</string>
+    <string name="contohrek">Contoh : 999987654321</string>
+    <string name="norekcontoh">Nomor rekening, contoh : 999987654321</string>
+    <string name="nama">Nama</string>
+    <string name="tambahkan_bank">+ Tambahkan E-Wallet/Bank</string>
+    <string name="john_email">john@doe.com</string>
+    <string name="manual">Manual.\nGunakan transaksi manual untuk fee lebih hemat.\nHanya tersedia di jam kerja.\nDiproses 5–10 menit setelah order dibayar. </string>
+    <string name="manual2">Manual (Sedang tidak tersedia).\nGunakan transaksi manual untuk fee lebih hemat.\nHanya tersedia di jam kerja.\nDiproses 5–10 menit setelah order dibayar. </string>
+    <string name="alamat">Alamat (Nama jalan/desa, nomor rumah/RT RW)</string>
+    <string name="contohalamat">Desa Konoha RT 02 RW 05</string>
+    <string name="contohtgl">31–01–1971</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="kycdeclare">-Saya menyatakan bahwa data di atas adalah benar identitas saya sendiri.\n-Saya tidak akan pernah memberikan/meminjamkan/menjual akun saya kepada pihak manapun.\n-Saya tidak akan pernah menyalahgunakan layanan Pusvo untuk aktivitas money laundry, judi online, dan kegiatan lain yang tidak sesuai hukum di Indonesia.\nSaya sudah membaca syarat dan ketentuan yang berlaku pada proses KYC ini</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="id_transaksi">ID Transaksi</string>
+    <string name="pilih_provinsi">Pilih provinsi</string>
+    <string name="pilih_kabupaten">Pilih kabupaten/Kota</string>
+    <string name="pilih_kecamatan">Pilih kecamatan</string>
+    <string name="pilih_desa">Pilih desa</string>
+    <string name="verifikasi_kyc">Verifikasi KYC</string>
+    <string name="kontak_terpilih">Kontak Terpilih</string>
+    <string name="meter_terpilih">No Meter Terpilih</string>
+    <string name="atau">Atau</string>
+    <string name="depositwarning">Transaksi menggunakan saldo deposit diautentikasi dengan Google authenticator, sebelum deposit pastikan Google Authenticator masih terinstal.</string>
+    <string name="sk">Syarat dan ketentuan</string>
+    <string name="hanya_angka">Hanya Angka</string>
+    <string name="deposit">Deposit</string>
+    <string name="silakan_scan">Silakan scan QR dibawah untuk membayar dengan aplikasi e-wallet favorit Anda (Shopeepay,OVO,Dana,Linkaja,Gopay,Mobile BCA, dan lainnya)</string>
+    <string name="silakan_shopeepay">Silakan lakukan pembayaran senilai :</string>
+    <string name="hello_world">Testing</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="kyc_sedang_proses">Data KYC berhasil diterima, estimasi lamanya proses KYC adalah 1x24 jam, namun tidak menutup kemungkinan dapat melebihi estimasi tersebut.</string>
+    <string name="simpan">Simpan</string>
+    <string name="error500">Maaf, sistem kami sedang mengalami gangguan, hubungi kami jika Anda melihat pesan ini terus menerus.</string>
+    <string name="linkaja">Linkaja</string>
+    <string name="id_deposit">ID Deposit</string>
+    <string name="batas_waktu">Batas Waktu Pembayaran</string>
+    <string name="awal">Awal</string>
+    <string name="shopeepay">Shopeepay</string>
+    <string name="qris">QRIS</string>
+    <string name="voucher">Voucher</string>
+    <string name="sn">SN</string>
+    <string name="poin">Poin</string>
+    <string name="salin">Salin</string>
+    <string name="za">ht</string>
+    <string name="zb">tp</string>
+    <string name="zc">api12.pusvo.com</string>
+    <string name="id_game">ID Game</string>
+    <string name="baru">Baru</string>
+    <string name="reset_authenticator">Reset Authenticator</string>
+    <string name="formatpassword">Password harus mengandung huruf besar, kecil dan angka</string>
+    <string name="lupa_password">Lupa password</string>
+    <string name="lupa_username">Lupa username</string>
+    <string name="tampilkan_password">Tampilkan password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset">Reset</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="ulangi_password_baru">Ulangi Password Baru</string>
+    <string name="ganti_password">Ganti Password</string>
+    <string name="topup_ewallet_manual">Top Up E-Wallet Manual</string>
+    <string name="topup_ewallet">Top Up E-Wallet</string>
+    <string name="ewallet">E-Wallet</string>
+    <string name="akun">Akun</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="total_sukses">Total Transaksi Sukses</string>
+    <string name="token">Token Listrik</string>
+    <string name="keluar">Keluar</string>
+    <string name="uline">Uang Online</string>
+    <string name="saldo">Saldo Pusvo</string>
+    <string name="daftar_harga">Daftar Harga</string>
+    <string name="name">Produk</string>
+    <string name="binance_idr">Binance IDR</string>
+    <string name="no_va">Nomor VA</string>
+    <string name="voucher_tv">Voucher TV</string>
+    <string name="marketplace">Tagihan Marketplace</string>
+    <string name="pln_pascabayar">PLN Pascabayar</string>
+    <string name="bpjs">BPJS Kesehatan</string>
+    <string name="id_pelanggan">ID Pelanggan</string>
+    <string name="id_order">ID Order</string>
+    <string name="idpel_terpilih">ID Pelanggan Terpilih</string>
+    <string name="pilih_produk">Pilih Produk</string>
+    <string name="pilih_bank">Pilih Bank/E-Wallet</string>
+    <string name="email">Email</string>
+    <string name="email_indodax">Email Sesuai Akun Indodax</string>
+    <string name="atau2">atau</string>
+    <string name="transaksi_sukses">Transaksi sukses</string>
+    <string name="transaksi_gagal_hubungi_kami">Transaksi gagal, hubungi kami untuk refund</string>
+    <string name="transaksi_batal">Transaksi dibatalkan sistem</string>
+    <string name="transaksi_proses">Transaksi sedang diproses</string>
+    <string name="transaksi_belum">Transaksi belum dibayar</string>
+    <string name="transaksi_kurang">Pembayaran kurang, hubungi kami untuk refund</string>
+    <string name="transaksi_refund">Transaksi gagal, dana sudah dikembalikan</string>
+    <string name="sedang_diproses">Sedang Diproses</string>
+    <string name="belum_dibayar">Belum Dibayar</string>
+    <string name="sukses">Sukses</string>
+    <string name="gagal">Gagal</string>
+    <string name="dibatalkan">Dibatalkan</string>
+    <string name="transaksi_sedang_diproses">Transaksi sedang diproses</string>
+    <string name="gagal_diproses">Gagal diproses, silakan hubungi kami untuk pengembalian dana atau penggantian nomor</string>
+    <string name="butuh_bantuan">Butuh bantuan?</string>
+    <string name="loading">Loading</string>
+    <string name="rincian_transaksi">Rincian Transaksi</string>
+    <string name="petunjuk_reset_authenticator">Untuk reset authenticator silakan kirim email ke cs@pusvo.com isikan subjek \"Reset google authenticator\", kirimkan username dan no hp sesuai akun. Reset google authenticator akan diproses dalam 1x24 jam, Anda akan menerima Whatsapp/SMS berisi secret key baru dari sistem di no hp yang terdaftar pada akun. Demi keamanan, pastikan merahasiakan secret key dari pihak manapun dan segera hapus SMS/WA jika Google Authenticator sudah diaktifkan kembali.\n\n</string>
+    <string name="skkyc">Syarat dan ketentuan\n\n
+        1. Sebelum klik lanjutkan pastikan data yang diisi benar.
+			  \n2. Nama pada akun E-Wallet/Rekening wajib sama persis dengan nama pada akun di Pusvo maupun di Indodax. Perbedaan nama walau hanya 1 huruf dapat menyebabkan KYC gagal.
+			  \n3. KYC diperlukan untuk pencegahan penyalahgunaan dari kegiatan-kegiatan yang melanggar hukum Indonesia seperti pencucian uang, pendanaan terorisme, perjudian online, dan lainnya.
+			  \n4. Proses KYC akan selesai sekitar 1x24 jam setelah diajukan. Dalam keadaan tertentu mungkin bisa membutuhkan waktu lebih dari seharusnya.
+			  \n5. Data berupa alamat dan tanggal lahir disimpan sementara di server sampai pengajuan diterima, selanjutnya data tersebut hanya disimpan secara offline.
+			  \n6. KYC INI MERUPAKAN KYC RINGAN, TIDAK MEMERLUKAN UPLOAD FOTO KTP, NAMUN PASTIKAN DATA YANG ANDA INPUT BENAR.
+			  \n7. Segala hal yang terjadi pada akun Anda sebelum dan sesudah proses KYC merupakan tanggung jawab Anda pribadi, dilarang keras meminjamkan, memberikan dan/atau menjual akun Anda kepada pihak manapun.
+    </string>
+    <string name="skwithdraw">Syarat dan ketentuan\n\n
+1. Diproses secara instan melalui pihak ketiga. Dana akan masuk dalam beberapa menit setelah dibayar.*\n
+2. Khusus untuk transaksi dengan metode manual, order hanya diproses pada jam kerja, order pada jam kerja diproses dalam 5-10 menit. Order mungkin akan diproses lebih lama ketika admin sedang istirahat. Pada waktu istirahat, kami akan menampilkan warning waktu istirahat pada halaman order.\n
+3. Minimal transaksi Rp 25.000, maksimal Rp 1.000.000 (akumulasi per hari).\n
+4. Pastikan untuk mengecek nama dan nomor terlebih dahulu sebelum melakukan pembayaran.\n
+5. Maksimal waktu proses adalah 24 jam, apabila selambat-lambatnya dalam 24 jam setelah pembayaran, top up belum masuk, Anda dapat mengajukan pengembalian dana (refund).\n
+6. Withdraw ke E-Wallet baik OVO, Gopay, Dana, Linkaja, maupun Shopeepay WAJIB SUDAH DIUPGRADE/VERIFIKASI (KYC) DENGAN identitas asli milik Anda sendiri. JIKA NEKAT TRANSAKSI MENGGUNAKAN AKUN NON-VERIF, PROSES TOP UP MUNGKIN MEMAKAN WAKTU HINGGA 7X24 JAM DAN NOMOR AKAN DIBLACKLIST DARI SELURUH LAYANAN PUSVO. JANGAN SALAHKAN KAMI.\n
+7. Nama pada akun Indodax yang digunakan untuk membuat voucher wajib sama dengan nama pada akun dan E-Wallet terverifikasi. Saat pembuatan voucher wajib mengisikan alamat email sesuai instruksi pembayaran.\n
+8. Pusvo berhak menolak transaksi jika ditemukan kejanggalan.\n
+9. Transaksi dalam proses dan sukses tidak dapat dibatalkan dengan alasan apapun.\n
+10. Segala bentuk penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+11. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+12. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.
+</string>
+    <string name="skmarketplace">Bukalapak
+\n
+1. Pilih barang yang Anda ingin beli, lalu klik  \"Lanjut ke Pembayaran \".\n
+2. Pilih metode pembayaran  \"Transfer Virtual Account \".\n
+3. Pilih  \"BCA \".\n
+4. Klik  \"Bayar \", lalu akan muncul nomor virtual akun.\n
+5. Masukkan nomor virtual akun ke halaman order di Pusvo.\n\n
+Shopee\n
+\n
+1. Pilih barang yang Anda ingin beli, lalu klik checkout.\n
+2. Pilih metode pembayaran  \"Transfer Bank \".\n
+3. Pilih  \"BCA (Dicek Otomatis).\n
+4. Klik  \"Buat Pesanan \", lalu akan muncul nomor virtual akun.\n
+5. Masukkan nomor virtual akun ke halaman order di Pusvo.\n\n
+Lazada\n
+1. Pilih barang yang Anda ingin beli, lalu klik  \"Beli Sekarang \", kemudian klik  \"Buat Pesanan \".\n
+2. Pilih metode pembayaran  \"melalui bank transfer \".\n
+3. Pilih  \"BCA \".\n
+4. Klik  \"Konfirmasi Pesanan \", lalu akan muncul nomor virtual akun.\n
+5. Masukkan nomor virtual akun ke halaman order di Pusvo.\n\n
+Tokopedia\n
+1. Pilih barang yang Anda ingin beli, lalu klik  \"Beli \", masukkan jumlah barang, kemudian klik  \"Beli Sekarang \" dan klik  \"Checkout \".\n
+2. Klik  \"Bayar \", lalu pilih metode pembayaran  \"BCA Virtual Account \".\n
+3. Klik  \"Bayar \", lalu akan muncul nomor virtual akun.\n
+4. Masukkan nomor virtual akun ke halaman order di Pusvo.\n
+\n\n\n
+
+Syarat dan ketentuan\n\n
+1. Pembayaran ke marketplace dilakukan setelah review manual dari admin, dan hanya diproses di jam kerja.\n
+2. Pastikan hanya masukkan nomor VA (Virtual Account) yang didapatkan dari Aplikasi/Web Marketplace langsung, bukan nomor VA/rekening yang diberikan oleh pihak lain.\n
+3. Maksimal pembayaran per transaksi adalah Rp 500.000.\n
+4. Di halaman konfirmasi akan muncul nama dan total belanja Anda. Jangan lakukan pembayaran jika terdapat ketidaksesuaian.\n
+5. Untuk mencegah pembatalan pesanan, lakukan pembelian hanya di toko-toko yang sudah terpercaya.\n
+6. Pusvo hanya bertugas membayarkan tagihan marketplace terkait, jika terjadi ketidaksesuaian barang atau permasalahan lain maka itu bukanlah tanggung jawab kami.\n
+7. Dilarang melakukan transaksi fiktif dan pembelian selain barang(tidak diperkenankan untuk pembelian pulsa, voucher game, token dan produk lain yang terdapat di Pusvo.com).\n
+8. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+9. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+10. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+11. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n \n
+    </string>
+    <string name="skbpjs">Syarat dan ketentuan\n\n
+1. Pastikan detail nama dan lain-lain sudah sesuai sebelum melakukan pembayaran, jika nama dan lain-lain tidak muncul, tagihan mungkin sudah dibayar sebelumnya(sudah lunas) atau sedang gangguan server. Hubungi admin untuk informasi lebih lanjut.\n
+2. Maksimal jumlah tagihan adalah Rp 500.000, tagihan diatas nominal tersebut tidak dapat dilakukan di Pusvo.com.\n
+3. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+4. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+5. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+6. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n \n
+</string>
+    <string name="skplnpasca">Syarat dan ketentuan\n\n
+1. Pastikan detail nama dan lain-lain sudah sesuai sebelum melakukan pembayaran, jika nama dan lain-lain tidak muncul, tagihan mungkin sudah dibayar sebelumnya(sudah lunas) atau sedang gangguan server. Hubungi admin untuk informasi lebih lanjut.\n
+2. Maksimal jumlah tagihan adalah Rp 500.000, tagihan diatas nominal tersebut tidak dapat dilakukan di Pusvo.com.\n
+3. Order pada pukul 23.30 - 00.30 mungkin akan diproses lebih lama atau bahkan gagal.\n
+4. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+5. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+6. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+7. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n
+        \n</string>
+    <string name="skojol">Syarat dan ketentuan\n\n
+1. Untuk linkaja manual, saldo akan dikirim langsung oleh admin, sehingga prosesnya mungkin lebih lama jika admin sedang tidak online.\n
+2. Saldo e-wallet akan langsung masuk kurang dari 10 menit (jika tidak ada gangguan).\n
+3. Selalu pastikan mengecek nomor terlebih dahulu sebelum melakukan pembayaran.\n
+4. Akun E-Wallet baik OVO, Gopay, Dana, Linkaja, maupun Shopee WAJIB SUDAH DIUPGRADE/VERIFIKASI (KYC) DENGAN KTP. JIKA NEKAT MENGGUNAKAN AKUN UNVERIFIED, PROSES TOP UP MUNGKIN MEMAKAN WAKTU HINGGA 7X24 JAM DAN NOMOR AKAN DIBLACKLIST PERMANEN DARI SELURUH LAYANAN PUSVO. JANGAN SALAHKAN KAMI.\n
+5. Maksimal transaksi per hari adalah Rp 400.000.\n
+6. Apabila dalam 10 menit top up belum masuk silakan hubungi kami.\n
+7. Maksimal waktu proses adalah 24 jam, apabila selambat-lambatnya dalam 24 jam top up tidak masuk, Anda dapat mengajukan pengembalian dana (refund).\n
+8. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+9. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+10. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+11. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n \n
+</string>
+    <string name="skpaket">AXIS\n\n
+AXIS Bronet\n
+Axis bronet adalah paket internet yang dapat diisikan ke nomor axis yang telah aktif dan diisi langsung ke nomor tujuan (tanpa kode).\n
+AXIS Aigo\n
+Axis aigo adalah paket internet yang lebih hemat dan dapat diisikan kapanpun ke nomor axis dengan menggunakan kode voucher.\n
+1. Setelah melakukan order Anda akan mendapat kode voucher (dikirim melalui sms atau dapat dicek di halaman cek transaksi).\n
+2. Tekan *838*kode voucher# lalu klik call/ok. Atau bisa juga diredeem menggunakan aplikasi AXIS Net.\n
+3. Tunggu SMS masuk berisi aktivasi paket.\n
+4. Disarankan untuk menggunakan kode voucher tidak lebih dari 24 jam setelah kode voucher didapatkan.\n
+        \n\nINDOSAT\n\nIndosat Yellow\n
+Indosat yellow adalah jenis paket internet sebesar 1 GB yang dapat diisikan dengan berbagai pilihan masa aktif mulai 1 hari hingga 15 hari sesuai kebutuhan Anda.\n
+Ketentuan :\n
+1. Kuota dapat digunakan 24 jam di semua jaringan 2G/3G/4G.\n
+2. Paket yellow dapat diisikan ke semua nomor prabayar Indosat Ooredoo.\n
+3. Tidak berlaku akumulasi, sehingga apabila ada paket sebelumnya maka paket tersebut akan hangus walaupun belum berakhir masa aktifnya.\n
+4. Apabila paket yellow telah habis, maka akan diberlakukan tarif internet normal menggunakan pulsa utama sebesar Rp 2/KB.\n
+\n
+* Syarat dan ketentuan ini mungkin dapat berubah sesuai kebijakan Indosat.\n
+\n\n
+        THREE
+\n\n
+Kuota++\n
+Kuota 24 jam dapat digunakan di semua jaringan 2G/3G/4G, masa aktif mengikuti masa aktif kartu.\n
+\n
+Kuota Reguler\n
+Kuota 24 jam dapat digunakan di semua jaringan 2G/3G/4G, masa aktif mengikuti masa aktif kartu.\n
+\n
+Voucher\n
+Kuota 24 jam dapat digunakan di semua jaringan 2G/3G/4G, masa aktif mengikuti masa aktif kartu. Cara redeem :\n
+1. Setelah melakukan order Anda akan mendapatkan kode voucher/SN.\n
+2. Kode tersebut harus diredeem untuk mengaktifkan kuota, dengan cara tekan *111*kode voucher/SN# lalu call/ok.\n
+        \n\nTELKOMSEL
+\n\n
+Paket Internet Telkomsel\n
+Kuota paket dan masa aktif internet telkomsel tergantung zona Anda. Dapat dicek pada website telkomsel.\n\n\n
+
+Syarat dan ketentuan\n\n
+1. Mohon untuk mengecek nomor terlebih dahulu sebelum melakukan pembayaran, transaksi yang sudah sukses ke nomor yang salah tidak dapat direfund atau ganti nomor, kecuali mendapat status gagal (nomor tidak terdaftar) dari operator terkait dalam 1x24 jam.\n
+2. Transaksi ke nomor yang salah atau tidak lengkap namun gagal dapat dikirim ulang ke nomor yang benar atau refund setelah 1x24 jam.\n
+3. Pastikan menginput jumlah pembayaran yang benar, jika tidak maka transaksi tidak diproses oleh sistem. Jika salah memasukkan nominal dan voucher sudah terpakai, silakan hubungi kami untuk pengembalian voucher, karena berapapun nominal voucher yang Anda masukkan di halaman konfirmasi akan diredeem oleh server.\n
+4. Transaksi di nomor, nominal, dan hari yang sama mungkin akan diproses lebih lama. Usahakan untuk melakukan pengisian paket berbeda-beda nominal.\n
+5. Transaksi dalam proses dan sukses tidak dapat dibatalkan kecuali jika dinyatakan gagal oleh pihak operator.\n
+6. Meskipun status transaksi dalam proses dan belum menerima sms notifikasi, paket mungkin sudah masuk, silakan cek paket atau cek status transaksi melalui menu riwayat transaksi terlebih dahulu sebelum komplain.\n
+7. Khusus produk voucher, kuota akan masuk setelah voucher diredeem, silakan baca petunjuk sebelum membeli.\n
+8. Jika dalam 10 menit paket belum masuk, silakan hubungi kami.\n
+9. Normalnya waktu pengisian kuota adalah 1-10 menit, namun dalam kondisi tertentu (gangguan, maintenance operator, bencana alam, dan keadaan force majure lainnya) mungkin dibutuhkan waktu hingga maksimal 24 jam atau lebih. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.\n
+10. Order pada pukul 23.00-01.00 mungkin akan diproses lebih lama karena proses rekapitulasi harian ataupun maintenance di beberapa operator.\n
+11. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+12. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+13. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n
+
+</string>
+    <string name="skpaketsms">Syarat dan ketentuan\n\n
+1. Mohon untuk mengecek nomor terlebih dahulu sebelum melakukan pembayaran, transaksi yang sudah sukses ke nomor yang salah tidak dapat direfund atau ganti nomor, kecuali mendapat status gagal (nomor tidak terdaftar) dari operator terkait dalam waktu maksimal 1x24 jam setelah order dibayar.\n
+2. Transaksi ke nomor yang salah atau tidak lengkap namun gagal dapat dikirim ulang ke nomor yang benar atau refund setelah 1x24 jam.\n
+3. Pastikan nomor HP masih aktif (belum hangus), indikator sinyal masih muncul, dan sudah diregistrasi menggunakan identitas yang berlaku.\n
+4. Transaksi di nomor, nominal, dan hari yang sama mungkin akan diproses lebih lama. Usahakan untuk melakukan pengisian paket sms berbeda-beda nominal.\n
+5. Transaksi dalam proses dan sukses tidak dapat dibatalkan kecuali jika dinyatakan gagal oleh pihak operator.\n
+6. Meskipun status transaksi dalam proses dan belum menerima sms notifikasi, paket sms mungkin sudah masuk, silakan cek paket sms atau cek status transaksi melalui menu riwayat transaksi terlebih dahulu sebelum komplain.\n
+7. Jika dalam 10 menit paket sms belum masuk, silakan hubungi kami.\n
+8. Normalnya waktu pengisian paket sms adalah 1-10 menit, namun dalam kondisi tertentu (gangguan, maintenance operator, bencana alam, dan keadaan force majure lainnya) mungkin dibutuhkan waktu hingga maksimal 24 jam atau lebih. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.\n
+9. Order pada pukul 23.00-01.00 mungkin akan diproses lebih lama karena proses rekapitulasi harian ataupun maintenance di beberapa operator.\n
+10. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+11. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+12. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.
+</string>
+    <string name="sktoken">Syarat dan Ketentuan\n\n
+1. Pastikan kembali nomor meter dan nomor HP sebelum melakukan pembayaran.\n
+2. Kode token akan dikirimkan melalui sms otomatis yang akan masuk setelah transaksi sukses.\n
+3. Jika Anda tidak menerima sms, Anda juga dapat juga melihat kode token melalui menu Cek Transaksi.\n
+4. Order pada pukul 23.30 - 00.30 mungkin akan diproses lebih lama atau bahkan gagal.\n
+5. Lamanya proses transaksi adalah 1-10 menit, namun dalam kondisi tertentu mungkin dibutuhkan waktu hingga maksimal 24 jam. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.\n
+6. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+7. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+8. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+9. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n
+</string>
+    <string name="skwifi">Petunjuk penggunaan\n\n
+1. Cari lokasi hotspot wifi.id.\n
+2. Koneksikan perangkat Anda ke wifi.id.\n
+3. Buka browser, maka akan dialihkan ke halaman login wifi.id.\n
+4. Masukkan user id dan password yang terdapat pada SMS/riwayat order ke kolom yang disediakan, lalu klik tombol Login.\n
+5. Koneksi Wifi.id sudah dapat digunakan.\n\n\n
+Syarat dan Ketentuan\n\n
+1. Transaksi di nomor, nominal, dan hari yang sama mungkin akan diproses lebih lama. Usahakan untuk melakukan transaksi berbeda-beda nominal atau gunakan nomor HP lain.\n
+2. Untuk produk tertentu kode voucher lengkap dikirim melalui SMS ke nomor yang diorder atau bisa dicek di menu pencarian transaksi.\n
+3. Lamanya proses transaksi adalah 1-10 menit, namun dalam kondisi tertentu mungkin dibutuhkan waktu hingga maksimal 24 jam. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.\n
+4. Transaksi dalam proses dan sukses tidak dapat dibatalkan.\n
+5. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+6. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+7. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n
+    </string>
+    <string name="skvouchergame">Garena\n
+1. Login menggunakan akun garena Anda di https://kiosgamer.co.id\n
+2. Untuk top up shell klik pada pilihan  \"Top Up \".\n
+3. Pilih menu  \"Voucher Garena \".\n
+4. Masukkan kode voucher yang didapat ke kolom yang disediakan, lalu klik tombol Konfirmasi.\n
+5. Jika mengalami kendala, Anda dapat mengunjungi link berikut https://newsupport.garena.co.id/ticket/create.\n\n
+Gemscool
+\n
+1. Kunjungi https://www.gemscool.com/isiGcash/voucher_charge_input.php\n
+2. Jika belum login silakan login terlebih dahulu, jika sudah masukkan kode voucher yang didapat ke kolom yang disediakan.\n
+3. Klik tombol  \"ISI VOUCHER \".\n
+4. Jika mengalami kendala, Anda dapat menghubungi cs@taiga.co.id atau telepon ke nomor 021-29303499.\n\n
+Google Playstore\n
+1. Buka aplikasi google playstore, atau kunjungi https://play.google.com/store\n
+2. Klik tombol redeem/tukarkan, jika sudah masukkan kode voucher yang didapat ke kolom yang disediakan.\n
+3. Klik tombol  \"redeem/tukarkan \".\n\n
+Lyto\n
+Perfect World :\n
+1. Kunjungi https://perfectworld.lytogame.com/pembayaran\n
+2. Pilih server yang sesuai dengan tempat karakter Anda berada.\n
+3. Login dengan akun Anda.\n
+4. Pilih Kartu Pembayaran (Fisik), jika sudah masukkan kode voucher yang didapat ke kolom yang disediakan.\n
+5. Klik tombol  \"Lanjut \".\n
+RF Classic :\n
+1. Kunjungi https://rfclassic.lytogame.com/pembayaran/ppcardMultiOrderPreForm.asp\n
+2. Login dengan akun Anda.\n
+3. Pilih Kartu Pembayaran (Fisik), jika sudah masukkan kode voucher yang didapat ke kolom yang disediakan.\n
+4. Klik tombol  \"LANJUT \".\n
+Jika mengalami kendala, Anda dapat menghubungi support@goc.id atau telepon ke nomor 0896-0831-3701.\n\n
+Megaxus\n
+1. Kunjungi https://bill.megaxus.co.id\n
+2. Klik tombol  \"Masukkan kode voucher Megaxus di sini\".\n
+3. Masukkan kode voucher dan password. Anda dapat memilih untuk top up ke saldo DOMPET GUE atau langsung top up ke Micash.\n
+4. Klik tombol  \"Lanjutkan \".\n
+5. Jika mengalami kendala, Anda dapat menghubungi cs@megaxus.com atau telepon ke nomor 021-7919-4666.\n\n
+Steam Wallet (IDR)\n
+1. Kunjungi https://store.steampowered.com/account/redeemwalletcode\n
+2. Masukkan kode voucher.\n
+3. Klik tombol  \"Continue \".\n\n
+
+Syarat dan ketentuan\n\n
+1. Transaksi di nomor, nominal, dan hari yang sama mungkin akan diproses lebih lama. Usahakan untuk melakukan transaksi berbeda-beda nominal atau gunakan nomor HP lain.\n
+2. Untuk produk tertentu kode voucher lengkap dikirim melalui SMS ke nomor yang diorder atau bisa dicek di menu pencarian transaksi.\n
+3. Lamanya proses transaksi adalah 1-10 menit, namun dalam kondisi tertentu mungkin dibutuhkan waktu hingga maksimal 24 jam. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.\n
+4. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+5. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+6. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.
+</string>
+<string name="skpulsa">Syarat dan ketentuan\n\n
+1. Mohon untuk mengecek nomor terlebih dahulu sebelum melakukan pembayaran, transaksi yang sudah sukses ke nomor yang salah tidak dapat direfund atau ganti nomor, kecuali mendapat status gagal (nomor tidak terdaftar) dari operator terkait dalam waktu maksimal 1x24 jam setelah order dibayar.
+\n2. Transaksi ke nomor yang salah atau tidak lengkap namun gagal dapat dikirim ulang ke nomor yang benar atau refund setelah 1x24 jam.
+\n3. Pastikan nomor HP masih aktif (belum hangus), indikator sinyal masih muncul, dan sudah diregistrasi menggunakan identitas yang berlaku.
+\n4. Transaksi di nomor, nominal, dan hari yang sama mungkin akan diproses lebih lama. Usahakan untuk melakukan pengisian pulsa berbeda-beda nominal.
+\n5. Transaksi dalam proses dan sukses tidak dapat dibatalkan kecuali jika dinyatakan gagal oleh pihak operator.
+\n6. Meskipun status transaksi dalam proses dan belum menerima sms notifikasi, pulsa mungkin sudah masuk, silakan cek pulsa atau cek status transaksi melalui menu riwayat transaksi terlebih dahulu sebelum komplain.
+\n7. Jika dalam 10 menit pulsa belum masuk, silakan hubungi kami.
+\n8. Normalnya waktu pengisian pulsa adalah 1-10 menit, namun dalam kondisi tertentu (gangguan, maintenance operator, bencana alam, dan keadaan force majure lainnya) mungkin dibutuhkan waktu hingga maksimal 24 jam atau lebih. Kami tidak dapat membatalkan transaksi yang sudah dalam proses di pihak vendor.
+\n9. Order pada pukul 23.00-01.00 mungkin akan diproses lebih lama karena proses rekapitulasi harian ataupun maintenance di beberapa operator.
+\n10. Dilarang keras membeli pulsa dengan tujuan untuk deposit ke situs judi online, dice, dan sejenisnya. Jika terbukti, akun akan dibekukan permanen dan dilaporkan ke pihak yang berwajib jika diperlukan.
+\n11. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.
+\n12. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.
+\n13. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.
+    </string>
+    <string name="sktopupgame">Petunjuk top up game online :\n \n
+        Free Fire\n
+                Top up langsung ke User ID\n
+                1. Pada game free fire, ke menu profile.\n
+                2. Akan muncul user id, gunakan user id tersebut untuk top up.\n\n
+                Mobile Legend\n
+                Top up langsung ke User ID\n
+                1. Pada game mobile legend, ke menu profile.\n
+                2. Akan muncul user id dan server id dengan format XXXXXXXX(XXXX) (Contoh: 333333333(0012).\n
+                3. Untuk top up masukkan user id dan server id di kolom yang tersedia disambung tanpa tanda kurung (Contoh: 3333333330012).\n\n
+                PUBG Mobile\n
+                Top up langsung ke Character ID\n
+                1. Masukkan character ID pada game PUBG Mobile untuk top up.\n\n\n
+    Syarat dan ketentuan :\n \n
+1. Top up Diamond/UC dikirim langsung ke ID Game.\n
+2. Pastikan sudah mengecek nomor hp dan user id sebelum melanjutkan.\n
+3. Transaksi di User ID yang sama dan nomor yang sama mungkin akan diproses lebih lama.\n
+4. Penyalahgunaan layanan Pusvo untuk kegiatan yang tidak sesuai dengan hukum perundang-undangan di Republik Indonesia dapat dilaporkan ke pihak yang berwajib dan menjadi tanggung jawab penuh pembeli/pengguna.\n
+5. Layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+6. Dengan melakukan order di Pusvo berarti Anda sudah menyetujui semua ketentuan di atas.\n
+    </string>
+    <string name="pilih_operator">Pilih Operator</string>
+    <string name="username">Username</string>
+    <string name="silakan_transfer">Silakan transfer senilai :</string>
+    <string name="silakan">Silakan buat voucher Indodax senilai :</string>
+    <string name="silakan_kirim_idk">Silakan kirim IDK melalui Indodax senilai :</string>
+    <string name="silakan_voucher_bidr">Silakan buat kode voucher BIDR melalui Binance senilai :</string>
+    <string name="silakan_transfer_bidr">Silakan transfer BIDR melalui Tokocrypto senilai :</string>
+    <string name="silakan_transfer_bidr_binance">Silakan transfer BIDR melalui Binance senilai :</string>
+    <string name="silakan_kirim_idk_onchain">Silakan kirim IDK senilai :</string>
+    <string name="ke_alamat_onchain">Silakan kirim IDK senilai :</string>
+    <string name="contoh_voucher_bidr">(Contoh : XXXXABCDXXXX1234)</string>
+    <string name="contoh_cardnumber_bidr">(Contoh : 1234567890987654)</string>
+    <string name="isikan_email">ISIKAN ALAMAT EMAIL TUJUAN : </string>
+    <string name="isikan_alamat">ISIKAN ALAMAT TUJUAN : </string>
+    <string name="isikan_memo">ISIKAN MEMO/DESTINATION TAG (WAJIB): </string>
+    <string name="isikan_berita">ISIKAN BERITA TRANSFER (WAJIB): </string>
+    <string name="isikan_username">ISIKAN USERNAME TUJUAN : </string>
+    <string name="ke_nomor_rekening">Nomor rekening : </string>
+    <string name="masukkan_nomor_kartu">Masukkan Nomor Kartu(Card Number)</string>
+    <string name="masukkan_kode_kartu">Masukkan Kode Kartu(Card Code)</string>
+    <string name="masukkan_pin">Masukkan PIN Google Authenticator</string>
+    <string name="pin_google_authenticator">PIN Google Authenticator</string>
+    <string name="masukkan_tx_id">Masukkan Transaction ID(TX ID)</string>
+    <string name="email_pusvo">pusvoretail@gmail.com</string>
+    <string name="alamatidk_pusvo">GDMMM2KPFU3UQKLUPI7GK6MOWVG2BJNXTFBYSYCTTY5SMG4AKRH3CVKR</string>
+    <string name="username_pusvo">pusvoretail</string>
+    <string name="lalu2">ISIKAN ALAMAT EMAIL TUJUAN : pusvoretail@gmail.com (WAJIB), lalu masukkan ke kolom di bawah ini dan tekan tombol konfirmasi.</string>
+    <string name="lalu">lalu masukkan nomor kartu(card number) dan kode kartu/voucher(card code) ke kolom di bawah ini dan tekan tombol konfirmasi.</string>
+    <string name="lalu_tx">lalu masukkan TX ID ke kolom di bawah ini dan tekan tombol konfirmasi.</string>
+    <string name="contoh_tx_id">(Contoh : VIP-IDK-XXXX-XXXXXXXX)</string>
+    <string name="password">Password</string>
+    <string name="jumlah_bulan">Jumlah Bulan</string>
+    <string name="jumlah_orang">Jumlah Orang</string>
+    <string name="bulan">Bulan</string>
+    <string name="dompol">Dompet Online</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="game">Voucher Game</string>
+    <string name="voucher_game">Voucher Game</string>
+    <string name="katasandi">Katasandi</string>
+    <string name="ojek_online">Ojek Online</string>
+    <string name="prosedur_daftar">Untuk mendaftar silakan kunjungi https://pusvo.com atau klik tombol dibawah</string>
+    <string name="masuk">Masuk</string>
+    <string name="waktu">Waktu</string>
+    <string name="daftar">Daftar</string>
+    <string name="login">Login</string>
+    <string name="order">Order</string>
+	<string name="operator">Operator</string>
+    <string name="paket">Paket Internet</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="komplain">Komplain</string>
+    <string name="paketsms">Paket SMS</string>
+    <string name="belanja">Voucher Belanja</string>
+    <string name="meter">Nomor Meter</string>
+    <string name="topupgame">Top Up Game</string>
+    <string name="kode_voucher">Kode Voucher</string>
+    <string name="metode">Metode Pembayaran</string>
+    <string name="indodax">Indodax</string>
+    <string name="indodax_idk">Indodax IDK</string>
+    <string name="idk_on_chain">IDK On-Chain</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="halo">Halo</string>
+    <string name="history">History</string>
+    <string name="melebihi_limit">Melebihi limit</string>
+    <string name="estimasi_harga">Estimasi Harga</string>
+    <string name="setujusyarat">Saya telah mengecek nomor tujuan dan menyetujui syarat dan ketentuan</string>
+    <string name="perhatian">Perhatian</string>
+    <string name="instruksibca">ke nomor rekening BCA 4240299661 a.n. Arif Mashuri dengan berita transfer</string>
+    <string name="instruksibni">ke nomor rekening BNI 0364111322 a.n. Arif Mashuri dengan berita transfer</string>
+    <string name="instruksimandiri">ke nomor rekening Mandiri 1390016300414 a.n. Arif Mashuri dengan berita transfer</string>
+    <string name="instruksiovo">ke nomor OVO 081381995282 a.n. Arif Mashuri dengan berita transfer</string>
+    <string name="user">User ID</string>
+	<string name="indodax_google">Indodax (Google Authenticator)</string>
+	<string name="indodax_sms">Indodax (OTP SMS)</string>
+    <string name="bca">BCA</string>
+    <string name="bni">BNI</string>
+    <string name="mandiri">Mandiri</string>
+    <string name="ovo">OVO</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="ketentuan">Ketentuan</string>
+    <string name="testimoni">Isi Testimoni/Rating</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="status">Status</string>
+    <string name="pulsa">Pulsa</string>
+    <string name="produk">Produk</string>
+    <string name="wifi_id">Voucher Wifi.ID</string>
+    <string name="wifiid">Wifi.ID</string>
+    <string name="harga">Harga</string>
+    <string name="printer_setting">Pengaturan Printer</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="keamanan">Keamanan</string>
+    <string name="ganti_pin">Ganti PIN</string>
+    <string name="versi_aplikasi">Versi Aplikasi</string>
+    <string name="cek_transaksi">Cek Transaksi</string>
+    <string name="view">Lihat Data</string>
+    <string name="error">Kesalahan Jaringan</string>
+    <string name="accept">Setuju</string>
+    <string name="semua">Semua</string>
+    <string name="tikwa"> : </string>
+    <string name="tiket_kereta">Tiket Kereta</string>
+    <string name="norekbca">4240299661</string>
+    <string name="wd_indodax">Withdraw Indodax</string>
+    <string name="wd_indodaxbinance">WD Indodax &amp; Binance</string>
+    <string name="wd_binance">Withdraw Binance BIDR</string>
+    <string name="wd_tokocrypto">Withdraw Tokocrypto</string>
+    <string name="norekovo">085211952491</string>
+    <string name="fee_manual">Fee WD Manual</string>
+    <string name="fee_otomatis">Fee WD Otomatis</string>
+    <string name="nominal">Nominal</string>
+    <string name="hwd1">Rp25.000-Rp1.000.000</string>
+    <string name="hwd2">Rp4.800-Rp5.500 (tergantung nominal)</string>
+    <string name="hwd3">Rp2.300-Rp2.700 (tergantung nominal)</string>
+    <string name="norekmandiri">1390016300414</string>
+    <string name="norekbni">1220783935</string>
+    <string name="waktu_bayar">Dibayar pada</string>
+    <string name="waktu_sukses">Sukses pada</string>
+    <string name="hubungi_kami">Hubungi Kami</string>
+
+    <string name="petunjuk_indodax2">Petunjuk Pembayaran\n\n
+    Menggunakan Website Indodax :\n
+    1. Klik menu Voucher pada website Indodax. Klik \"Buat Voucher Baru\".\n
+    2. Masukkan nominal voucher yang akan dibuat, kolom email tujuan voucher diisi \"pusvoretail@gmail.com\", lalu masukkan PIN Google Authenticator/OTP SMS.\n
+    3. Klik tombol \"LANJUT PEMBUATAN VOUCHER\".\n
+    4. Periksa email Anda. Pastikan kembali jumlah voucher yang dibuat sudah benar. Klik tautan dalam email.\n
+    5. Lalu akan muncul kode voucher yang akan digunakan untuk membayar.\n
+    6. Masukkan kode voucher tersebut ke order Anda di Pusvo. Klik tombol Konfirmasi.\n
+    7. Jika nominal voucher sudah benar maka status order akan berubah menjadi "sedang diproses".\n
+    8. Jika status menunjukan pembayaran belum diterima tetapi Anda sudah merasa membayar, silakan hubungi kami.\n\n
+
+
+
+    Menggunakan Aplikasi Indodax :\n
+    1. Buka aplikasi Indodax. Pilih Menu \"Funds\", lalu pilih \"Voucher\". Pilih \"Buat Voucher\"\n
+    2. Masukkan nominal voucher yang akan dibuat, kolom email tujuan voucher diisi \"pusvoretail@gmail.com\". Lalu klik \"Generate\".\n
+    3. Masukkan PIN Aplikasi Indodax.\n
+    4. Periksa email Anda. Pastikan kembali jumlah voucher yang dibuat sudah benar. Klik tautan dalam email.\n
+    5. Lalu akan muncul kode voucher yang akan digunakan untuk membayar.\n
+    6. Masukkan kode voucher tersebut ke order Anda di Pusvo. Klik tombol Konfirmasi.\n
+    7. Jika nominal voucher sudah benar maka status order akan berubah menjadi "sedang diproses".\n
+    8. Jika status menunjukan pembayaran belum diterima tetapi Anda sudah merasa membayar, silakan hubungi kami.
+        \n\n
+
+                  Menggunakan Aplikasi Dompet Indodax :\n
+    1. Klik menu Voucher pada aplikasi Indodax. Klik \"BUAT VOUCHER\".\n
+    2. Masukkan nominal voucher yang akan dibuat, kolom email tujuan voucher diisi \"pusvoretail@gmail.com\". Lalu klik \"BUAT VOUCHER\".\n
+    3. Periksa sms, lalu masukkan kode yang ada pada SMS, masukkan PIN aplikasi Anda.\n
+    4. Lalu akan muncul kode voucher yang akan digunakan untuk membayar.\n
+    5. Masukkan kode voucher tersebut ke order Anda di Pusvo. Klik tombol Konfirmasi.\n
+    6. Jika nominal voucher sudah benar maka status order akan berubah menjadi "sedang diproses".\n
+    7. Jika status menunjukan pembayaran belum diterima tetapi Anda sudah merasa membayar, silakan hubungi kami.
+        \n\n
+
+    \n\n
+    </string>
+
+    <string name="skdeposit">Syarat dan ketentuan\n\n
+    Deposit melalui transfer BCA :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama BCA.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer BNI :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama BNI.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer Mandiri :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama Mandiri.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer OVO :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari sesama OVO.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui voucher Indodax :\n
+        1. Deposit bisa dilakukan kapanpun 24 jam kecuali saat maintenance.\n
+        2. Minimal deposit Rp 1.000.\n
+        3. Deposit dikenakan fee sebesar 1%.\n
+        4. Buatlah voucher sesuai instruksi. Apabila pembayaran kurang silakan hubungi kami untuk pengembalian dana (refund).
+        \n\n
+        \n
+    </string>
+    <string name="skdeposit2">Syarat dan ketentuan\n\n
+    Deposit melalui transfer BCA :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama BCA.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer BNI :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama BNI.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer Mandiri :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari rekening sesama Mandiri.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+    Deposit melalui transfer OVO :\n
+        1. Maksimal waktu deposit adalah jam 21.00 setiap harinya.\n
+        2. Minimal deposit Rp 10.000.\n
+        3. Hanya menerima transfer dari sesama OVO.\n
+        4. Berita transfer wajib diisi sesuai instruksi.
+        \n\n
+        \n
+    </string>
+
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="update_tersedia">Update tersedia, segera perbarui</string>
+    <string name="kontak_kami">Hubungi Kami</string>
+	<string name="tentangkami_deskripsi">TENTANG KAMI :
+	\n\n
+	Pusvo adalah layanan pembelian pulsa dan produk e-voucher lainnya dengan pembayaran menggunakan voucher Indodax, Bank BCA, dan Bank Mandiri. Untuk bank BCA dan Mandiri saat ini belum tersedia di aplikasi karena masih dalam tahap pengembangan. Pusvo hadir untuk memudahkan Anda dalam melakukan pembelian berbagai produk e-voucher.</string>
+	<string name="kontakkami_deskripsi">KONTAK KAMI :
+	\n\n
+	Silakan hubungi kami untuk komplain, kritik, saran, maupun pertanyaan seputar layanan Pusvo
+    \nFacebook : Pusvo
+	\nEmail : cs@pusvo.com
+	\nWhatsapp : 083844662524
+    \n\nJAM KERJA : Senin-Jumat (08.30-22.30), Sabtu-Minggu (08.30-21.00)
+    \n\Diluar jam kerja slow respon</string>
+	<string name="deskripsi_bantuan">BANTUAN :
+	\n\n
+1. Cara melakukan pembelian dengan menggunakan voucher Indodax
+\na. Isi nomor HP dan nomor meter(untuk transaksi PLN), nomor VA(untuk BPJS dan marketplace), ID game(untuk top up game online) pada kolom yang tersedia, maka akan muncul pilihan produk, silakan pilih produk yang ingin Anda beli.
+\nb. Pilih metode pembayaran menggunakan Indodax.
+\nc. Klik tombol bayar sekarang.
+\nd. Setelah di halaman pembayaran, cek terlebih dahulu detail Pembelian Anda.
+\ne. Jika sudah benar, silakan buat kode voucher pembayaran senilai yang tertera di halaman pembayaran. Jika tidak mengaktifkan Google Authenticator di Indodax bayarlah pada nominal yang di atas, jika sudah mengaktifkan Google Authenticator bayarlah dengan nominal yang dibawah. Jika Anda bingung Anda bisa membayar dengan nominal yang di atas, kelebihan pembayaran dianggap sebagai tip.
+\nf. Klik tombol konfirmasi, jika voucher benar maka pengiriman pulsa/paket internet/paket sms akan langsung dalam proses.
+\ng. Jika pembayaran kurang karena salah dalam membuat voucher, silakan hubungi kami untuk refund(pengembalian dana) ataupun menambah kekurangan pembayaran.
+\n\n
+2. Cara melakukan pembelian dengan menggunakan saldo
+\na. Isi nomor HP dan nomor meter(untuk transaksi PLN), nomor VA(untuk BPJS dan marketplace), ID game(untuk top up game online) pada kolom yang tersedia, maka akan muncul pilihan produk, silakan pilih produk yang ingin Anda beli.
+\nb. Pilih metode pembayaran menggunakan Saldo.
+\nc. Klik tombol bayar sekarang.
+\nd. Setelah di halaman pembayaran, cek terlebih dahulu detail Pembelian Anda.
+\ne. Jika sudah benar, silakan masukkan PIN google authenticator Pusvo.
+\nf. Klik tombol konfirmasi, jika PIN benar maka pengiriman pulsa/paket internet/paket sms akan langsung dalam proses.
+
+</string>
+    <string name="eula_string">SYARAT DAN KETENTUAN LAYANAN :
+\n\n
+        1. Pengguna wajib merahasiakan identitas akun baik email, username, password, maupun PIN google authenticator dari pihak manapun.\n
+        2. Pengguna wajib membaca syarat ketentuan order per produknya sebelum melakukan transaksi, melakukan order berarti Anda sudah setuju dengan syarat ketentuan tersebut.\n
+        3. Transaksi produk yang diproses manual dengan keterangan MANUAL hanya diproses pada jam kerja. Order di luar jam kerja akan diproses di jam kerja berikutnya.\n
+        4. Transaksi produk reguler diproses secara instan, namun apabila terdapat gangguan di pihak ketiga (provider) proses isi ulang dapat memakan waktu hingga 1x24 jam. Namun setiap order yang masuk tentu akan kami usahakan untuk diproses secepatnya.\n
+        5. Komplain terhadap seluruh produk dan layanan Pusvo direspon pada jam kerja.\n
+        6. Refund (pengembalian dana) untuk order yang gagal maupun karena kurang pembayarannya dapat diajukan dengan menghubungi kami di kontak yang tersedia.\n
+        7. Seluruh layanan Pusvo hanya diperuntukan bagi WNI berusia minimal 18 tahun.\n
+    </string>
+
+    <string-array name="axispulsa">
+        <item>Pilih produk</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="axisharga">
+        <item>-</item>
+        <item>Rp 6.300</item>
+        <item>Rp 11.300</item>
+        <item>Rp 16.000</item>
+        <item>Rp 26.000</item>
+        <item>Rp 31.200</item>
+        <item>Rp 51.100</item>
+        <item>Rp 101.500</item>
+    </string-array>
+    <string-array name="axishargaindodax">
+        <item>-</item>
+        <item>Rp 6.363</item>
+        <item>Rp 11.413</item>
+        <item>Rp 16.200</item>
+        <item>Rp 26.300</item>
+        <item>Rp 31.500</item>
+        <item>Rp 51.600</item>
+        <item>Rp 102.500</item>
+    </string-array>
+    <string-array name="axishargashopee">
+        <item>-</item>
+        <item>Rp 6.394</item>
+        <item>Rp 11.469</item>
+        <item>Rp 16.200</item>
+        <item>Rp 26.400</item>
+        <item>Rp 31.700</item>
+        <item>Rp 51.900</item>
+        <item>Rp 103.000</item>
+    </string-array>
+    <string-array name="axisdeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 14 hari</item>
+        <item>Masa aktif 21 hari</item>
+        <item>Masa aktif 25 hari</item>
+        <item>Masa aktif 45 hari</item>
+        <item>Masa aktif 75 hari</item>
+        <item>Masa aktif 150 hari</item>
+    </string-array>
+    <string-array name="axisid">
+        <item>-</item>
+        <item>97</item>
+        <item>98</item>
+        <item>1070</item>
+        <item>99</item>
+        <item>1071</item>
+        <item>100</item>
+        <item>101</item>
+    </string-array>
+    <string-array name="indosatpulsa">
+        <item>Pilih produk</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 12.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="indosatharga">
+        <item>-</item>
+        <item>Rp 6.300</item>
+        <item>Rp 11.500</item>
+        <item>Rp 12.900</item>
+        <item>Rp 21.000</item>
+        <item>Rp 26.000</item>
+        <item>Rp 31.000</item>
+        <item>Rp 51.500</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="indosathargaindodax">
+        <item>-</item>
+        <item>Rp 6.363</item>
+        <item>Rp 11.615</item>
+        <item>Rp 13.000</item>
+        <item>Rp 21.200</item>
+        <item>Rp 26.300</item>
+        <item>Rp 31.300</item>
+        <item>Rp 52.000</item>
+        <item>Rp 101.000</item>
+    </string-array>
+    <string-array name="indosathargashopee">
+        <item>-</item>
+        <item>Rp 6.394</item>
+        <item>Rp 11.672</item>
+        <item>Rp 13.100</item>
+        <item>Rp 21.300</item>
+        <item>Rp 26.400</item>
+        <item>Rp 31.500</item>
+        <item>Rp 52.300</item>
+        <item>Rp 101.500</item>
+    </string-array>
+    <string-array name="indosatdeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 45 hari</item>
+        <item>Masa aktif 60 hari</item>
+    </string-array>
+    <string-array name="indosatid">
+        <item>-</item>
+        <item>102</item>
+        <item>103</item>
+        <item>1155</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+    </string-array>
+    <string-array name="threepulsa">
+        <item>Pilih produk</item>
+        <item>Rp 1.000</item>
+        <item>Rp 2.000</item>
+        <item>Rp 3.000</item>
+        <item>Rp 4.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="threeharga">
+        <item>-</item>
+        <item>Rp 1.500</item>
+        <item>Rp 2.600</item>
+        <item>Rp 3.900</item>
+        <item>Rp 4.900</item>
+        <item>Rp 6.000</item>
+        <item>Rp 11.000</item>
+        <item>Rp 16.000</item>
+        <item>Rp 20.900</item>
+        <item>Rp 25.800</item>
+        <item>Rp 30.900</item>
+        <item>Rp 51.200</item>
+        <item>Rp 76.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="threehargaindodax">
+        <item>-</item>
+        <item>Rp 1.515</item>
+        <item>Rp 2.626</item>
+        <item>Rp 3.939</item>
+        <item>Rp 4.949</item>
+        <item>Rp 6.060</item>
+        <item>Rp 11.110</item>
+        <item>Rp 16.200</item>
+        <item>Rp 21.100</item>
+        <item>Rp 26.100</item>
+        <item>Rp 31.200</item>
+        <item>Rp 51.700</item>
+        <item>Rp 76.800</item>
+        <item>Rp 101.000</item>
+    </string-array>
+    <string-array name="threehargashopee">
+        <item>-</item>
+        <item>Rp 1.522</item>
+        <item>Rp 2.639</item>
+        <item>Rp 3.958</item>
+        <item>Rp 4.973</item>
+        <item>Rp 6.090</item>
+        <item>Rp 11.165</item>
+        <item>Rp 16.200</item>
+        <item>Rp 21.200</item>
+        <item>Rp 26.200</item>
+        <item>Rp 31.400</item>
+        <item>Rp 52.000</item>
+        <item>Rp 77.100</item>
+        <item>Rp 101.500</item>
+    </string-array>
+    <string-array name="threedeskripsi">
+        <item>-</item>
+        <item>Masa aktif tambahan 1 hari</item>
+        <item>Masa aktif tambahan 1 hari</item>
+        <item>Masa aktif tambahan 1 hari</item>
+        <item>Masa aktif tambahan 1 hari</item>
+        <item>Masa aktif tambahan 5 hari</item>
+        <item>Masa aktif tambahan 10 hari</item>
+        <item>Masa aktif tambahan 10 hari.</item>
+        <item>Masa aktif tambahan 20 hari</item>
+        <item>Masa aktif tambahan 20 hari</item>
+        <item>Masa aktif tambahan 30 hari</item>
+        <item>Masa aktif tambahan 30 hari</item>
+        <item>Masa aktif tambahan 30 hari.</item>
+        <item>Masa aktif tambahan 60 hari</item>
+    </string-array>
+    <string-array name="threeid">
+        <item>-</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>1112</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>1111</item>
+        <item>119</item>
+    </string-array>
+    <string-array name="telkomselpulsa">
+        <item>Pilih produk</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 40.000</item>
+        <item>Rp 45.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 55.000</item>
+        <item>Rp 60.000</item>
+        <item>Rp 65.000</item>
+        <item>Rp 70.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 80.000</item>
+        <item>Rp 85.000</item>
+        <item>Rp 90.000</item>
+        <item>Rp 95.000</item>
+        <item>Rp 100.000</item>
+        <item>Rp 50.000 (Pulsa Transfer)</item>
+        <item>Rp 100.000 (Pulsa Transfer)</item>
+        <item>Rp 150.000 (Pulsa Transfer)</item>
+        <item>Rp 200.000 (Pulsa Transfer)</item>
+        <item>Rp 300.000 (Pulsa Transfer)</item>
+    </string-array>
+    <string-array name="telkomselharga">
+        <item>-</item>
+        <item>Rp 6.200</item>
+        <item>Rp 11.300</item>
+        <item>Rp 15.900</item>
+        <item>Rp 21.200</item>
+        <item>Rp 26.200</item>
+        <item>Rp 31.300</item>
+        <item>Rp 36.000</item>
+        <item>Rp 41.500</item>
+        <item>Rp 46.000</item>
+        <item>Rp 51.500</item>
+        <item>Rp 56.000</item>
+        <item>Rp 61.500</item>
+        <item>Rp 66.000</item>
+        <item>Rp 71.500</item>
+        <item>Rp 76.000</item>
+        <item>Rp 82.000</item>
+        <item>Rp 86.000</item>
+        <item>Rp 92.200</item>
+        <item>Rp 97.000</item>
+        <item>Rp 101.000</item>
+        <item>Rp 47.000</item>
+        <item>Rp 93.500</item>
+        <item>Rp 140.000</item>
+        <item>Rp 186.000</item>
+        <item>Rp 278.000</item>
+    </string-array>
+    <string-array name="telkomselhargaindodax">
+        <item>-</item>
+        <item>Rp 6.262</item>
+        <item>Rp 11.413</item>
+        <item>Rp 16.100</item>
+        <item>Rp 21.400</item>
+        <item>Rp 26.500</item>
+        <item>Rp 31.600</item>
+        <item>Rp 36.400</item>
+        <item>Rp 41.900</item>
+        <item>Rp 46.500</item>
+        <item>Rp 52.000</item>
+        <item>Rp 56.600</item>
+        <item>Rp 62.100</item>
+        <item>Rp 66.700</item>
+        <item>Rp 72.200</item>
+        <item>Rp 76.800</item>
+        <item>Rp 82.800</item>
+        <item>Rp 86.900</item>
+        <item>Rp 93.100</item>
+        <item>Rp 98.000</item>
+        <item>Rp 102.000</item>
+        <item>Rp 47.500</item>
+        <item>Rp 94.400</item>
+        <item>Rp 141.400</item>
+        <item>Rp 187.900</item>
+        <item>Rp 280.800</item>
+    </string-array>
+    <string-array name="telkomselhargashopee">
+        <item>-</item>
+        <item>Rp 6.293</item>
+        <item>Rp 11.469</item>
+        <item>Rp 16.100</item>
+        <item>Rp 21.500</item>
+        <item>Rp 26.600</item>
+        <item>Rp 31.800</item>
+        <item>Rp 36.500</item>
+        <item>Rp 42.100</item>
+        <item>Rp 46.700</item>
+        <item>Rp 52.300</item>
+        <item>Rp 56.800</item>
+        <item>Rp 62.400</item>
+        <item>Rp 67.000</item>
+        <item>Rp 72.600</item>
+        <item>Rp 77.100</item>
+        <item>Rp 83.200</item>
+        <item>Rp 87.300</item>
+        <item>Rp 93.600</item>
+        <item>Rp 98.500</item>
+        <item>Rp 102.500</item>
+        <item>Rp 47.700</item>
+        <item>Rp 94.900</item>
+        <item>Rp 142.100</item>
+        <item>Rp 188.800</item>
+        <item>Rp 282.200</item>
+    </string-array>
+    <string-array name="telkomseldeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 45 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 60 hari</item>
+        <item>Tidak menambah masa aktif, hanya diproses pada jam kerja.</item>
+        <item>Tidak menambah masa aktif, hanya diproses pada jam kerja</item>
+        <item>Tidak menambah masa aktif, hanya diproses pada jam kerja</item>
+        <item>Tidak menambah masa aktif, hanya diproses pada jam kerja.</item>
+        <item>Tidak menambah masa aktif, hanya diproses pada jam kerja</item>
+    </string-array>
+    <string-array name="telkomselid">
+        <item>-</item>
+        <item>120</item>
+        <item>121</item>
+        <item>1163</item>
+        <item>122</item>
+        <item>123</item>
+        <item>1064</item>
+        <item>1164</item>
+        <item>1065</item>
+        <item>1166</item>
+        <item>124</item>
+        <item>1167</item>
+        <item>1066</item>
+        <item>1168</item>
+        <item>1067</item>
+        <item>1169</item>
+        <item>1068</item>
+        <item>1170</item>
+        <item>1069</item>
+        <item>1171</item>
+        <item>125</item>
+        <item>1094</item>
+        <item>1095</item>
+        <item>1156</item>
+        <item>1134</item>
+        <item>1146</item>
+    </string-array>
+    <string-array name="xlpulsa">
+        <item>Pilih produk</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="xlharga">
+        <item>-</item>
+        <item>Rp 6.300</item>
+        <item>Rp 11.400</item>
+        <item>Rp 16.200</item>
+        <item>Rp 25.900</item>
+        <item>Rp 31.500</item>
+        <item>Rp 51.000</item>
+        <item>Rp 100.900</item>
+    </string-array>
+    <string-array name="xlhargaindodax">
+        <item>-</item>
+        <item>Rp 6.363</item>
+        <item>Rp 11.514</item>
+        <item>Rp 16.400</item>
+        <item>Rp 26.200</item>
+        <item>Rp 31.800</item>
+        <item>Rp 51.500</item>
+        <item>Rp 101.900</item>
+    </string-array>
+    <string-array name="xlhargashopee">
+        <item>-</item>
+        <item>Rp 6.394</item>
+        <item>Rp 11.571</item>
+        <item>Rp 16.400</item>
+        <item>Rp 26.300</item>
+        <item>Rp 32.000</item>
+        <item>Rp 51.800</item>
+        <item>Rp 102.400</item>
+    </string-array>
+    <string-array name="xldeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 14 hari</item>
+        <item>Masa aktif 14 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 90 hari</item>
+    </string-array>
+    <string-array name="xlid">
+        <item>-</item>
+        <item>126</item>
+        <item>127</item>
+        <item>1075</item>
+        <item>128</item>
+        <item>1076</item>
+        <item>129</item>
+        <item>130</item>
+    </string-array>
+    <string-array name="smartfrenpulsa">
+        <item>Pilih produk</item>
+        <item>Rp 5.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 60.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="smartfrenharga">
+        <item>-</item>
+        <item>Rp 5.900</item>
+        <item>Rp 10.800</item>
+        <item>Rp 20.700</item>
+        <item>Rp 26.200</item>
+        <item>Rp 31.000</item>
+        <item>Rp 51.200</item>
+        <item>Rp 61.300</item>
+        <item>Rp 76.000</item>
+        <item>Rp 101.000</item>
+    </string-array>
+    <string-array name="smartfrenhargaindodax">
+        <item>-</item>
+        <item>Rp 5.959</item>
+        <item>Rp 10.908</item>
+        <item>Rp 20.900</item>
+        <item>Rp 26.500</item>
+        <item>Rp 31.300</item>
+        <item>Rp 51.700</item>
+        <item>Rp 61.900</item>
+        <item>Rp 76.800</item>
+        <item>Rp 102.000</item>
+    </string-array>
+    <string-array name="smartfrenhargashopee">
+        <item>-</item>
+        <item>Rp 5.988</item>
+        <item>Rp 10.962</item>
+        <item>Rp 21.000</item>
+        <item>Rp 26.600</item>
+        <item>Rp 31.500</item>
+        <item>Rp 52.000</item>
+        <item>Rp 62.200</item>
+        <item>Rp 77.100</item>
+        <item>Rp 102.500</item>
+    </string-array>
+    <string-array name="smartfrendeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 15 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif 30 hari</item>
+        <item>Masa aktif tambahan 30 hari.*</item>
+        <item>Masa aktif 60 hari</item>
+        <item>Masa aktif tambahan 75 hari.*</item>
+        <item>Masa aktif 75 hari</item>
+        <item>Masa aktif 120 hari</item>
+    </string-array>
+    <string-array name="smartfrenid">
+        <item>-</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>1108</item>
+        <item>135</item>
+        <item>1109</item>
+        <item>1173</item>
+        <item>136</item>
+    </string-array>
+    <string-array name="by.upulsa">
+        <item>Pilih produk</item>
+        <item>Rp 1.000</item>
+        <item>Rp 2.000</item>
+        <item>Rp 3.000</item>
+        <item>Rp 4.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 6.000</item>
+        <item>Rp 7.000</item>
+        <item>Rp 8.000</item>
+        <item>Rp 9.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 11.000</item>
+        <item>Rp 12.000</item>
+        <item>Rp 13.000</item>
+        <item>Rp 14.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 16.000</item>
+        <item>Rp 17.000</item>
+        <item>Rp 18.000</item>
+        <item>Rp 19.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 40.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="by.uharga">
+        <item>-</item>
+        <item>Rp 2.000</item>
+        <item>Rp 3.000</item>
+        <item>Rp 4.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 6.000</item>
+        <item>Rp 7.000</item>
+        <item>Rp 8.000</item>
+        <item>Rp 9.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 11.000</item>
+        <item>Rp 12.500</item>
+        <item>Rp 13.500</item>
+        <item>Rp 14.500</item>
+        <item>Rp 15.500</item>
+        <item>Rp 16.500</item>
+        <item>Rp 17.500</item>
+        <item>Rp 18.500</item>
+        <item>Rp 19.500</item>
+        <item>Rp 20.500</item>
+        <item>Rp 21.500</item>
+        <item>Rp 26.500</item>
+        <item>Rp 31.500</item>
+        <item>Rp 42.000</item>
+        <item>Rp 52.500</item>
+        <item>Rp 77.500</item>
+        <item>Rp 101.000</item>
+    </string-array>
+    <string-array name="by.uhargaindodax">
+        <item>-</item>
+        <item>Rp 2.020</item>
+        <item>Rp 3.030</item>
+        <item>Rp 4.040</item>
+        <item>Rp 5.050</item>
+        <item>Rp 6.060</item>
+        <item>Rp 7.070</item>
+        <item>Rp 8.080</item>
+        <item>Rp 9.090</item>
+        <item>Rp 10.100</item>
+        <item>Rp 11.110</item>
+        <item>Rp 12.600</item>
+        <item>Rp 13.600</item>
+        <item>Rp 14.600</item>
+        <item>Rp 15.700</item>
+        <item>Rp 16.700</item>
+        <item>Rp 17.700</item>
+        <item>Rp 18.700</item>
+        <item>Rp 19.700</item>
+        <item>Rp 20.700</item>
+        <item>Rp 21.700</item>
+        <item>Rp 26.800</item>
+        <item>Rp 31.800</item>
+        <item>Rp 42.400</item>
+        <item>Rp 53.000</item>
+        <item>Rp 78.300</item>
+        <item>Rp 102.000</item>
+    </string-array>
+    <string-array name="by.uhargashopee">
+        <item>-</item>
+        <item>Rp 2.030</item>
+        <item>Rp 3.045</item>
+        <item>Rp 4.060</item>
+        <item>Rp 5.075</item>
+        <item>Rp 6.090</item>
+        <item>Rp 7.105</item>
+        <item>Rp 8.120</item>
+        <item>Rp 9.135</item>
+        <item>Rp 10.150</item>
+        <item>Rp 11.165</item>
+        <item>Rp 12.700</item>
+        <item>Rp 13.700</item>
+        <item>Rp 14.700</item>
+        <item>Rp 15.700</item>
+        <item>Rp 16.700</item>
+        <item>Rp 17.800</item>
+        <item>Rp 18.800</item>
+        <item>Rp 19.800</item>
+        <item>Rp 20.800</item>
+        <item>Rp 21.800</item>
+        <item>Rp 26.900</item>
+        <item>Rp 32.000</item>
+        <item>Rp 42.600</item>
+        <item>Rp 53.300</item>
+        <item>Rp 78.700</item>
+        <item>Rp 102.500</item>
+    </string-array>
+    <string-array name="by.udeskripsi">
+        <item>-</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+        <item>Masa aktif</item>
+    </string-array>
+    <string-array name="by.uid">
+        <item>-</item>
+        <item>1200</item>
+        <item>1201</item>
+        <item>1202</item>
+        <item>1203</item>
+        <item>1204</item>
+        <item>1205</item>
+        <item>1206</item>
+        <item>1207</item>
+        <item>1208</item>
+        <item>1209</item>
+        <item>1210</item>
+        <item>1211</item>
+        <item>1212</item>
+        <item>1213</item>
+        <item>1214</item>
+        <item>1215</item>
+        <item>1216</item>
+        <item>1217</item>
+        <item>1218</item>
+        <item>1219</item>
+        <item>1220</item>
+        <item>1221</item>
+        <item>1222</item>
+        <item>1223</item>
+        <item>1224</item>
+        <item>1225</item>
+    </string-array>
+    <string-array name="axisdata">
+        <item>Pilih produk</item>
+        <item>BRONET 300 MB 7 Hari</item>
+        <item>BRONET 1GB 24 JAM 1 BULAN</item>
+        <item>BRONET 2GB 24 JAM 1 BULAN</item>
+        <item>BRONET 3GB 24 JAM 1 BULAN</item>
+        <item>BRONET 5GB 24 JAM 1 BULAN</item>
+        <item>AIGO 1GB 24 JAM 1 BULAN (Voucher)</item>
+        <item>AIGO 2GB 24 JAM 1 BULAN (Voucher)</item>
+        <item>AIGO 3GB 24 JAM 1 BULAN (Voucher)</item>
+        <item>AIGO 5GB 24 JAM 1 BULAN (Voucher)</item>
+        <item>AIGO Mini 1GB 24 JAM 5 hari (Voucher)</item>
+        <item>AIGO Mini 2GB 24 JAM 7 hari (Voucher)</item>
+        <item>AIGO Mini 3GB 24 JAM 15 hari (Voucher)</item>
+        <item>AIGO Mini 5GB 24 JAM 15 hari (Voucher)</item>
+    </string-array>
+    <string-array name="axisdataharga">
+        <item>-</item>
+        <item>Rp 10.500</item>
+        <item>Rp 19.000</item>
+        <item>Rp 28.500</item>
+        <item>Rp 38.500</item>
+        <item>Rp 57.500</item>
+        <item>Rp 14.500</item>
+        <item>Rp 24.500</item>
+        <item>Rp 31.000</item>
+        <item>Rp 45.500</item>
+        <item>Rp 8.700</item>
+        <item>Rp 16.000</item>
+        <item>Rp 21.000</item>
+        <item>Rp 31.500</item>
+    </string-array>
+    <string-array name="axisdatahargaindodax">
+        <item>-</item>
+        <item>Rp 10.605</item>
+        <item>Rp 19.200</item>
+        <item>Rp 28.800</item>
+        <item>Rp 38.900</item>
+        <item>Rp 58.100</item>
+        <item>Rp 14.600</item>
+        <item>Rp 24.700</item>
+        <item>Rp 31.300</item>
+        <item>Rp 46.000</item>
+        <item>Rp 8.787</item>
+        <item>Rp 16.200</item>
+        <item>Rp 21.200</item>
+        <item>Rp 31.800</item>
+    </string-array>
+    <string-array name="axisdatahargashopee">
+        <item>-</item>
+        <item>Rp 10.657</item>
+        <item>Rp 19.300</item>
+        <item>Rp 28.900</item>
+        <item>Rp 39.100</item>
+        <item>Rp 58.400</item>
+        <item>Rp 14.700</item>
+        <item>Rp 24.900</item>
+        <item>Rp 31.500</item>
+        <item>Rp 46.200</item>
+        <item>Rp 8.830</item>
+        <item>Rp 16.200</item>
+        <item>Rp 21.300</item>
+        <item>Rp 32.000</item>
+    </string-array>
+    <string-array name="axisdatadeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 7 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 1 Bulan, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 5 hari, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 7 hari, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 15 hari, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+        <item>Masa aktif 15 hari, berlaku 24 jam di jaringan 2G/3G/4G, cara redeem tekan *838*Kode voucher/SN# lalu pilih  \"Lanjut isi AIGO \"</item>
+    </string-array>
+    <string-array name="axisdataid">
+        <item>-</item>
+        <item>54</item>
+        <item>55</item>
+        <item>961</item>
+        <item>962</item>
+        <item>963</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>975</item>
+        <item>1135</item>
+        <item>1136</item>
+        <item>1137</item>
+        <item>1138</item>
+    </string-array>
+    <string-array name="indosatdata">
+        <item>Pilih produk</item>
+        <item>Yellow 1 GB 1 Hari</item>
+        <item>Yellow 1 GB 3 Hari</item>
+        <item>Yellow 1 GB 7 Hari</item>
+        <item>Yellow 1 GB 15 Hari</item>
+        <item>Indosat 1 GB 30 Hari+Apk</item>
+        <item>Indosat 2 GB 30 Hari+Apk</item>
+        <item>Indosat 7 GB 30 Hari+Apk</item>
+        <item>Indosat 10 GB 30 Hari+Apk</item>
+    </string-array>
+    <string-array name="indosatdataharga">
+        <item>-</item>
+        <item>Rp 4.000</item>
+        <item>Rp 6.000</item>
+        <item>Rp 11.000</item>
+        <item>Rp 14.500</item>
+        <item>Rp 26.600</item>
+        <item>Rp 40.000</item>
+        <item>Rp 77.000</item>
+        <item>Rp 96.000</item>
+    </string-array>
+    <string-array name="indosatdatahargaindodax">
+        <item>-</item>
+        <item>Rp 4.040</item>
+        <item>Rp 6.060</item>
+        <item>Rp 11.110</item>
+        <item>Rp 14.600</item>
+        <item>Rp 26.900</item>
+        <item>Rp 40.400</item>
+        <item>Rp 77.800</item>
+        <item>Rp 97.000</item>
+    </string-array>
+    <string-array name="indosatdatahargashopee">
+        <item>-</item>
+        <item>Rp 4.060</item>
+        <item>Rp 6.090</item>
+        <item>Rp 11.165</item>
+        <item>Rp 14.700</item>
+        <item>Rp 27.000</item>
+        <item>Rp 40.600</item>
+        <item>Rp 78.200</item>
+        <item>Rp 97.400</item>
+    </string-array>
+    <string-array name="indosatdatadeskripsi">
+        <item>-</item>
+        <item>Masa aktif 1 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 3 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 7 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 15 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 30 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 30 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 30 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 30 Hari, berlaku 24 jam di jaringan 2G/3G/4G</item>
+    </string-array>
+    <string-array name="indosatdataid">
+        <item>-</item>
+        <item>1025</item>
+        <item>1026</item>
+        <item>1027</item>
+        <item>1028</item>
+        <item>1159</item>
+        <item>1160</item>
+        <item>1077</item>
+        <item>1078</item>
+    </string-array>
+    <string-array name="threedata">
+        <item>Pilih produk</item>
+        <item>Paket 12 GB</item>
+        <item>Paket 32GB</item>
+        <item>Paket 117GB</item>
+        <item>Paket 150GB</item>
+        <item>AON 1,5GB</item>
+        <item>AON 2 GB</item>
+        <item>AON 3 GB</item>
+        <item>AON 6 GB</item>
+        <item>AON 8 GB</item>
+        <item>AON 16 GB</item>
+        <item>AON 6GB+Unlimited</item>
+        <item>AON 10GB+Unlimited</item>
+        <item>AON 16GB+Unlimited</item>
+    </string-array>
+    <string-array name="threedataharga">
+        <item>-</item>
+        <item>Rp 52.500</item>
+        <item>Rp 69.000</item>
+        <item>Rp 117.000</item>
+        <item>Rp 150.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 45.000</item>
+        <item>Rp 51.000</item>
+        <item>Rp 94.000</item>
+        <item>Rp 64.000</item>
+        <item>Rp 85.000</item>
+        <item>Rp 111.000</item>
+    </string-array>
+    <string-array name="threedatahargaindodax">
+        <item>-</item>
+        <item>Rp 53.000</item>
+        <item>Rp 69.700</item>
+        <item>Rp 118.200</item>
+        <item>Rp 151.500</item>
+        <item>Rp 15.100</item>
+        <item>Rp 20.200</item>
+        <item>Rp 30.300</item>
+        <item>Rp 45.400</item>
+        <item>Rp 51.500</item>
+        <item>Rp 94.900</item>
+        <item>Rp 64.600</item>
+        <item>Rp 85.800</item>
+        <item>Rp 112.100</item>
+    </string-array>
+    <string-array name="threedatahargashopee">
+        <item>-</item>
+        <item>Rp 53.300</item>
+        <item>Rp 70.000</item>
+        <item>Rp 118.800</item>
+        <item>Rp 152.200</item>
+        <item>Rp 15.200</item>
+        <item>Rp 20.300</item>
+        <item>Rp 30.400</item>
+        <item>Rp 45.700</item>
+        <item>Rp 51.800</item>
+        <item>Rp 95.400</item>
+        <item>Rp 65.000</item>
+        <item>Rp 86.300</item>
+        <item>Rp 112.700</item>
+    </string-array>
+    <string-array name="threedatadeskripsi">
+        <item>-</item>
+        <item>Masa aktif 1 bulan, 10 GB+bonus youtube 2 GB, kuota berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 bulan Total 32 GB, 2 GB untuk 1 bulan, 1GB/hari selama 1 bulan, bonus telepon 30 menit ke semua operator, kuota berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif 1 bulan Total 117 GB, 17 GB berlaku 24 jam,40 GB Sabtu &amp; Minggu, 60 GB jam 01.00-17.00 di jaringan 2G/3G/4G.</item>
+        <item>Masa aktif 1 bulan Total 150 GB, 25 GB berlaku 24 jam,55 GB Sabtu &amp; Minggu, 70 GB jam 01.00-17.00 di jaringan 2G/3G/4G.</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Masa aktif kuota mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, berlaku 24 jam di jaringan 2G/3G/4G</item>
+        <item>Kuota 6 GB dengan masa aktif mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, kuota unlimited berlaku pada pukul 01.00-17.00 selamat 30 hari di jaringan 2G/3G/4G</item>
+        <item>Kuota 10 GB dengan masa aktif mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, kuota unlimited berlaku pada pukul 01.00-17.00 selamat 30 hari di jaringan 2G/3G/4G</item>
+        <item>Kuota 16GB dengan masa aktif mengikuti masa aktif kartu, dapat di isikan ke semua nomor three, kuota unlimited berlaku pada pukul 01.00-17.00 selama 30 hari di jaringan 2G/3G/4G</item>
+    </string-array>
+    <string-array name="threedataid">
+        <item>-</item>
+        <item>1185</item>
+        <item>1151</item>
+        <item>99715</item>
+        <item>99716</item>
+        <item>1181</item>
+        <item>1182</item>
+        <item>1183</item>
+        <item>1184</item>
+        <item>99705</item>
+        <item>99706</item>
+        <item>1186</item>
+        <item>1187</item>
+        <item>1188</item>
+    </string-array>
+    <string-array name="telkomseldata">
+        <item>Pilih produk</item>
+        <item>Data Flash 5000</item>
+        <item>Data Flash 10000</item>
+        <item>Data Flash 20000</item>
+        <item>Flash 1 GB</item>
+        <item>Flash 2 GB</item>
+        <item>Flash 4 GB</item>
+    </string-array>
+    <string-array name="telkomseldataharga">
+        <item>-</item>
+        <item>Rp 6.300</item>
+        <item>Rp 11.200</item>
+        <item>Rp 21.000</item>
+        <item>Rp 25.200</item>
+        <item>Rp 52.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+    <string-array name="telkomseldatahargaindodax">
+        <item>-</item>
+        <item>Rp 6.363</item>
+        <item>Rp 11.312</item>
+        <item>Rp 21.200</item>
+        <item>Rp 25.500</item>
+        <item>Rp 52.500</item>
+        <item>Rp 101.000</item>
+    </string-array>
+    <string-array name="telkomseldatahargashopee">
+        <item>-</item>
+        <item>Rp 6.394</item>
+        <item>Rp 11.368</item>
+        <item>Rp 21.300</item>
+        <item>Rp 25.600</item>
+        <item>Rp 52.800</item>
+        <item>Rp 101.500</item>
+    </string-array>
+    <string-array name="telkomseldatadeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Dapat digunakan 24 jam, masa aktif 30 hari</item>
+        <item>Dapat digunakan 24 jam, masa aktif 30 hari</item>
+        <item>Dapat digunakan 24 jam, masa aktif 30 hari</item>
+    </string-array>
+    <string-array name="telkomseldataid">
+        <item>-</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+    </string-array>
+    <string-array name="xldata">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="xldataharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="xldatahargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="xldatahargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="xldatadeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="xldataid">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrendata">
+        <item>Pilih produk</item>
+        <item>Volume 1,25 GB 24 jam 7 hari</item>
+        <item>Volume 2 GB 24 jam 7 hari</item>
+        <item>Volume 4GB 24 jam 14 hari</item>
+        <item>Volume 10 GB 24 jam 1 Bulan</item>
+        <item>Volume 20 GB 24 jam 1 Bulan</item>
+        <item>Unlimited 7 Hari FUP 1 GB/Hari</item>
+        <item>Unlimited 14 Hari FUP 1 GB/Hari</item>
+        <item>Unlimited 28 Hari FUP 1 GB/Hari</item>
+    </string-array>
+    <string-array name="smartfrendataharga">
+        <item>-</item>
+        <item>Rp 11.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 31.500</item>
+        <item>Rp 59.000</item>
+        <item>Rp 97.000</item>
+        <item>Rp 21.000</item>
+        <item>Rp 41.500</item>
+        <item>Rp 81.000</item>
+    </string-array>
+    <string-array name="smartfrendatahargaindodax">
+        <item>-</item>
+        <item>Rp 11.110</item>
+        <item>Rp 20.200</item>
+        <item>Rp 31.800</item>
+        <item>Rp 59.600</item>
+        <item>Rp 98.000</item>
+        <item>Rp 21.200</item>
+        <item>Rp 41.900</item>
+        <item>Rp 81.800</item>
+    </string-array>
+    <string-array name="smartfrendatahargashopee">
+        <item>-</item>
+        <item>Rp 11.165</item>
+        <item>Rp 20.300</item>
+        <item>Rp 32.000</item>
+        <item>Rp 59.900</item>
+        <item>Rp 98.500</item>
+        <item>Rp 21.300</item>
+        <item>Rp 42.100</item>
+        <item>Rp 82.200</item>
+    </string-array>
+    <string-array name="smartfrendatadeskripsi">
+        <item>-</item>
+        <item>Masa aktif 7 hari</item>
+        <item>Masa aktif 14 hari</item>
+        <item>Masa aktif 14 hari</item>
+        <item>Masa aktif 1 Bulan</item>
+        <item>Masa aktif 1 Bulan</item>
+        <item>Masa aktif 7 Hari</item>
+        <item>Masa aktif 14 Hari</item>
+        <item>Masa aktif 28 Hari</item>
+    </string-array>
+    <string-array name="smartfrendataid">
+        <item>-</item>
+        <item>99707</item>
+        <item>99708</item>
+        <item>1048</item>
+        <item>99709</item>
+        <item>99710</item>
+        <item>99711</item>
+        <item>99712</item>
+        <item>99714</item>
+    </string-array>
+    <string-array name="by.udata">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="by.udataharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.udatahargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.udatahargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.udatadeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.udataid">
+        <item>-</item>
+    </string-array>
+    <string-array name="axissms">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="axissmsharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="axissmshargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="axissmshargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="axissmsdeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="axissmsid">
+        <item>-</item>
+    </string-array>
+    <string-array name="indosatsms">
+        <item>Pilih produk</item>
+        <item>Indosat 300 SMS</item>
+        <item>Indosat 600 SMS</item>
+        <item>Indosat 2000 SMS</item>
+        <item>Telepon unlimited Indosat+All operator 50 menit</item>
+        <item>Telepon unlimited Indosat+All operator 250 menit</item>
+    </string-array>
+    <string-array name="indosatsmsharga">
+        <item>-</item>
+        <item>Rp 6.800</item>
+        <item>Rp 12.500</item>
+        <item>Rp 29.000</item>
+        <item>Rp 15.500</item>
+        <item>Rp 52.500</item>
+    </string-array>
+    <string-array name="indosatsmshargaindodax">
+        <item>-</item>
+        <item>Rp 6.868</item>
+        <item>Rp 12.600</item>
+        <item>Rp 29.300</item>
+        <item>Rp 15.700</item>
+        <item>Rp 53.000</item>
+    </string-array>
+    <string-array name="indosatsmshargashopee">
+        <item>-</item>
+        <item>Rp 6.902</item>
+        <item>Rp 12.700</item>
+        <item>Rp 29.400</item>
+        <item>Rp 15.700</item>
+        <item>Rp 53.300</item>
+    </string-array>
+    <string-array name="indosatsmsdeskripsi">
+        <item>-</item>
+        <item>Indosat 300 SMS</item>
+        <item>Indosat 600 SMS</item>
+        <item>Indosat 2000 SMS</item>
+        <item>Telepon unlimited Indosat+All operator 50 menit</item>
+        <item>Telepon unlimited Indosat+All operator 250 menit, masa aktif 1 bulan</item>
+    </string-array>
+    <string-array name="indosatsmsid">
+        <item>-</item>
+        <item>953</item>
+        <item>954</item>
+        <item>955</item>
+        <item>1179</item>
+        <item>1180</item>
+    </string-array>
+    <string-array name="threesms">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="threesmsharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="threesmshargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="threesmshargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="threesmsdeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="threesmsid">
+        <item>-</item>
+    </string-array>
+    <string-array name="telkomselsms">
+        <item>Pilih produk</item>
+        <item>Telkomsel 200 SMS All Operator 1 Hari</item>
+        <item>Telkomsel 1000 SMS All Operator 5 Hari</item>
+        <item>Telkomsel 1500 SMS All Operator 30 Hari</item>
+        <item>Telkomsel 2000 SMS All Operator 30 Hari</item>
+    </string-array>
+    <string-array name="telkomselsmsharga">
+        <item>-</item>
+        <item>Rp 2.000</item>
+        <item>Rp 6.200</item>
+        <item>Rp 22.000</item>
+        <item>Rp 27.000</item>
+    </string-array>
+    <string-array name="telkomselsmshargaindodax">
+        <item>-</item>
+        <item>Rp 2.020</item>
+        <item>Rp 6.262</item>
+        <item>Rp 22.200</item>
+        <item>Rp 27.300</item>
+    </string-array>
+    <string-array name="telkomselsmshargashopee">
+        <item>-</item>
+        <item>Rp 2.030</item>
+        <item>Rp 6.293</item>
+        <item>Rp 22.300</item>
+        <item>Rp 27.400</item>
+    </string-array>
+    <string-array name="telkomselsmsdeskripsi">
+        <item>-</item>
+        <item>1 hari</item>
+        <item>5 hari</item>
+        <item>30 hari</item>
+        <item>30 hari</item>
+    </string-array>
+    <string-array name="telkomselsmsid">
+        <item>-</item>
+        <item>956</item>
+        <item>957</item>
+        <item>1090</item>
+        <item>1091</item>
+    </string-array>
+    <string-array name="xlsms">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="xlsmsharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="xlsmshargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="xlsmshargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="xlsmsdeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="xlsmsid">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrensms">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="smartfrensmsharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrensmshargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrensmshargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrensmsdeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="smartfrensmsid">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.usms">
+        <item>Pilih produk</item>
+    </string-array>
+    <string-array name="by.usmsharga">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.usmshargaindodax">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.usmshargashopee">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.usmsdeskripsi">
+        <item>-</item>
+    </string-array>
+    <string-array name="by.usmsid">
+        <item>-</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="tidaktersedia">
+<item>Tidak tersedia</item>
+</string-array>
+
+<string-array name="hpkosong">
+<item>No HP Salah</item>
+</string-array>
+<string name="contohmeter">Contoh : 522012345678</string>
+<string name="pusvocom">Pusvo.com</string>
+</resources>

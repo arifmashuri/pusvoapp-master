@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".BayarQRISActivity">
+
+    <!-- ~Buttons -->
+
+    <LinearLayout
+        android:background="#0F2C2121"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:visibility="gone"
+                    android:id="@+id/shimmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/id_order"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+
+                                android:layout_width="100dp"
+                                android:layout_height="16sp"
+                                android:background="@color/abu"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hp"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="16sp"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                android:background="@color/abu"
+                                app:fontFamily="@font/ubuntu" />
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/produk"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="16sp"
+                                android:background="@color/abu"
+                                android:textColor="@android:color/black"
+                                app:fontFamily="@font/ubuntu" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/harga"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <View
+                                android:layout_width="50dp"
+                                android:layout_height="16sp"
+                                android:textColor="@android:color/black"
+                                android:background="@color/abu"
+                                app:fontFamily="@font/ubuntu" />
+
+
+
+
+
+
+
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="16dp"
+                                android:background="@drawable/buttonshape"
+                                app:fontFamily="@font/ubuntu"
+                                android:text="@string/konfirmasi"
+                                android:textAllCaps="false"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:textSize="14sp"
+                                android:id="@+id/notice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="16dp"
+                                android:text="@string/perhatian"
+                                android:textColor="@color/merah"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/id_order"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/editTextID_transaksi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hp"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/editTexthp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <LinearLayout
+                                android:id="@+id/LinearMeter"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/meter"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editTextMeter"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearVA"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/no_va"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editVA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/produk"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/editTextProduk"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/harga"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="14sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <TextView
+                                android:id="@+id/editTextHarga"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                app:fontFamily="@font/ubuntu" />
+
+                            <LinearLayout
+                                android:id="@+id/LinearNama"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/nama"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editTextNama"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearJumlahBulan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/jumlah_bulan"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editTextJumlahBulan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearJumlahOrang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/jumlah_orang"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editTextJumlahOrang"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearBulan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bulan"
+                                    android:textColor="@android:color/darker_gray"
+                                    android:textSize="14sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                                <TextView
+                                    android:id="@+id/editTextBulan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="16sp"
+                                    app:fontFamily="@font/ubuntu" />
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/editTextTransaction_kode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginLeft="3dp"
+                                android:visibility="gone" />
+
+
+                            <TextView
+                                android:id="@+id/qr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone" />
+
+                            <Button
+                                android:id="@+id/tombolbayar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="16dp"
+                                android:background="@drawable/buttonshape"
+                                app:fontFamily="@font/ubuntu"
+                                android:text="@string/konfirmasi"
+                                android:textAllCaps="false"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <ProgressBar
+                                android:visibility="gone"
+                                android:id="@+id/progress_bar"
+                                style="?android:attr/progressBarStyleLarge"
+                                android:layout_width="match_parent"
+                                android:indeterminate="true"
+                                android:indeterminateTintMode="src_atop"
+                                android:indeterminateTint="@color/bg_color"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
